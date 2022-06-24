@@ -6,9 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2022-06-24 12:34+0000\n"
+"PO-Revision-Date: 2022-06-24 14:48+0000\n"
 "Last-Translator: ignotus <darylo1@hotmail.com>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/ignotus/faq/es/>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/ignotus/faq/es/>"
+"\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -77,10 +78,8 @@ msgstr "</details>"
 
 #. type: Plain text
 #: ../wiki/en/FAQ.md:21
-#, fuzzy
-#| msgid "TEST4"
 msgid "TEST10"
-msgstr "TEST4"
+msgstr "TEST10"
 
 #. type: Plain text
 #: ../wiki/en/FAQ.md:23
