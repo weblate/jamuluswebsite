@@ -79,7 +79,7 @@ msgstr "</details>"
 #: ../wiki/en/FAQ.md:21
 #, fuzzy
 #| msgid "TEST4"
-msgid "TEST7"
+msgid "TEST8"
 msgstr "TEST4"
 
 #. type: Plain text
