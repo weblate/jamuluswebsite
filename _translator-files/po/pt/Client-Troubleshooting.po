@@ -42,7 +42,7 @@ msgstr ""
 #: ../wiki/en/Client-Troubleshooting.md:10
 #, no-wrap
 msgid ""
-"# Troubleshooting TEST2\n"
+"# Troubleshooting TEST3\n"
 " {:.no_toc}\n"
 msgstr ""
 
