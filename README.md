@@ -1,5 +1,11 @@
 # Jamulus Website
 
+## Translated using Weblate
+
+<a href="https://hosted.weblate.org/engage/ignotus/">
+<img src="https://hosted.weblate.org/widgets/ignotus/-/multi-auto.svg" alt="Translation status" />
+</a>
+
 This is the content repository for [jamulus.io](https://jamulus.io). Text appearing in the Jamulus software application itself is part of the [main code repository](https://github.com/jamulussoftware/jamulus). See also the [general overview](https://jamulus.io/wiki/Contribution) to getting involved. 
 
 ## Making changes to the English version
