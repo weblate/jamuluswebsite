@@ -79,7 +79,7 @@ msgstr "</details>"
 
 #. type: Plain text
 #: ../wiki/en/FAQ.md:21
-msgid "TEST4"
+msgid "TEST5"
 msgstr ""
 
 #. type: Plain text
