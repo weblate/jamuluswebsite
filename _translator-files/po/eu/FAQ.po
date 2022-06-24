@@ -75,7 +75,7 @@ msgstr ""
 
 #. type: Plain text
 #: ../wiki/en/FAQ.md:21
-msgid "TEST5"
+msgid "TEST6"
 msgstr ""
 
 #. type: Plain text
