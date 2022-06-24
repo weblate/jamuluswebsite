@@ -14,12 +14,10 @@ permalink: "/wiki/FAQ"
 
 * TOC
  {:toc}
- 
- TEST3
 
 </details>
 
-TEST2
+TEST4
 
 **For common problems and their solutions when using Jamulus, see the [Troubleshooting](/wiki/Client-Troubleshooting) page.**
 
