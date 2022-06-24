@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2022-06-24 17:20+0000\n"
+"PO-Revision-Date: 2022-06-24 18:20+0000\n"
 "Last-Translator: Daryl Hanlon <darylohara@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/ignotus/"
 "software-manual/es/>\n"
@@ -39,7 +39,7 @@ msgstr "/wiki/Software-Manual"
 #: ../wiki/en/Software-Manual.md:1
 #, no-wrap
 msgid "Software Manual"
-msgstr "Manual del Software TEST1"
+msgstr "Manual del Software TEST2"
 
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:9
