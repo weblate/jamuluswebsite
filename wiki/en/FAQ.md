@@ -17,7 +17,7 @@ permalink: "/wiki/FAQ"
 
 </details>
 
-TEST7
+TEST8
 
 **For common problems and their solutions when using Jamulus, see the [Troubleshooting](/wiki/Client-Troubleshooting) page.**
 
