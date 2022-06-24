@@ -44,9 +44,12 @@ msgstr "Dépannage du client"
 
 #. type: Plain text
 #: ../wiki/en/Client-Troubleshooting.md:10
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "# Troubleshooting\n"
+#| " {:.no_toc}\n"
 msgid ""
-"# Troubleshooting\n"
+"# Troubleshooting TEST1\n"
 " {:.no_toc}\n"
 msgstr ""
 "# Dépannage\n"
