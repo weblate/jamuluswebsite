@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2022-06-24 09:58+0000\n"
+"PO-Revision-Date: 2022-06-24 09:59+0000\n"
 "Last-Translator: ignotus <darylo1@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/ignotus/faq/es/>"
 "\n"
@@ -74,7 +74,7 @@ msgstr "{:toc}"
 #. type: Plain text
 #: ../wiki/en/FAQ.md:19
 msgid "TEST3"
-msgstr "TEST3 pruebaa"
+msgstr "TEST3 pruebaaaaaa"
 
 #. type: Plain text
 #: ../wiki/en/FAQ.md:21
