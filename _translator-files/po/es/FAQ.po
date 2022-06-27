@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2022-06-27 07:18+0000\n"
+"PO-Revision-Date: 2022-06-27 07:39+0000\n"
 "Last-Translator: ignotus <darylo1@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/ignotus/faq/es/>"
 "\n"
@@ -85,22 +85,35 @@ msgstr "TEST11"
 #: ../wiki/en/FAQ.md:23
 #, no-wrap
 msgid "**For common problems and their solutions when using Jamulus, see the [Troubleshooting](/wiki/Client-Troubleshooting) page.**\n"
-msgstr "**Para problemas comunes y su solución al utilizar Jamulus, consulta la página de [Resolución de Problemas](/wiki/Client-Troubleshooting).**\n"
+msgstr ""
+"**Para problemas comunes y su solución al utilizar Jamulus, consulta la "
+"página de [Resolución de Problemas](/wiki/Client-Troubleshooting).**\n"
 
 #. type: Plain text
 #: ../wiki/en/FAQ.md:26
 msgid "### Is there a metronome, synchronization, or some other way of keeping in time?"
-msgstr "### ¿Hay un metrónomo, sincronización o alguna otra manera de mantener el tiempo?"
+msgstr ""
+"### ¿Hay un metrónomo, sincronización o alguna otra manera de mantener el "
+"tiempo?"
 
 #. type: Plain text
 #: ../wiki/en/FAQ.md:28
 msgid "No. Musicians on a Jamulus Server simply play in real time together as they would in person. If you want to have a time signal, then there are shared metronome solutions on the Internet you can try. But it’s probably best to just minimise latency so nobody has an overall delay more than about 30-50 ms."
-msgstr "No. Los usuarios de un Servidor Jamulus simplemente tocan juntos en tiempo real como si estuvieran en persona. Si quieres una señal de tiempo, entonces hay soluciones de metrónomos compartidos en Internet que puedes probar, pero probablemente sea mejor minimizar la latencia para que nadie tenga un retardo total de más de unos 30-50 ms."
+msgstr ""
+"No. Los usuarios de un Servidor Jamulus simplemente tocan juntos en tiempo "
+"real como si estuvieran en persona. Si quieres una señal de tiempo, entonces "
+"hay soluciones de metrónomos compartidos en Internet que puedes probar, pero "
+"probablemente sea mejor minimizar la latencia para que nadie tenga un "
+"retardo total de más de unos 30-50 ms."
 
 #. type: Plain text
 #: ../wiki/en/FAQ.md:30
 msgid "Bear in mind also that all participants should follow [The Golden Rule](/wiki/Client-Troubleshooting#you-all-sound-ok-but-its-difficult-to-keep-together) which will also determine whether you can play in time properly."
-msgstr "Ten en cuenta también que todos los participantes deben seguir [La Regla de Oro](/wiki/Client-Troubleshooting#todos-suenan-bien-pero-es-difícil-tocar-todos-juntos-manteniendo-el-tiempo) que asimismo determinará si podréis tocar bien en sincronización."
+msgstr ""
+"Ten en cuenta también que todos los participantes deben seguir [La Regla de "
+"Oro](/wiki/Client-Troubleshooting#todos-suenan-bien-pero-es-difícil-tocar-"
+"todos-juntos-manteniendo-el-tiempo) que asimismo determinará si podréis "
+"tocar bien en sincronización."
 
 #. type: Plain text
 #: ../wiki/en/FAQ.md:32
@@ -149,10 +162,13 @@ msgstr "Por la misma razón por la que necesitas minimizar el retardo de tu señ
 
 #. type: Plain text
 #: ../wiki/en/FAQ.md:48
-#, fuzzy
-#| msgid "Of course, if you are playing an acoustic instrument, or are a singer, it will be hard to exclude your “local” sound. But you should at least try to do so by for example using closed-back headphones turned up as loud as you are able to mask your own sound. This will let you concentrate on the mix coming back to you from the server."
 msgid "Of course, if you are playing an acoustic instrument, or are a singer, it will be hard to exclude your “local” sound. But you should at least try to do so by for example using closed-back headphones turned up as loud as you are able to mask your own sound. This will let you concentrate on the mix coming back to you from the Server."
-msgstr "Por supuesto, si tocas un instrumento acústico o cantas, va a ser difícil excluir tu sonido \"local\". Pero debes al menos intentar hacerlo, por ejemplo utilizando auriculares cerrados con el volumen subido para tapar tu propio sonido. Esto te permitirá concentrarte en la mezcla que vuelve del servidor."
+msgstr ""
+"Por supuesto, si tocas un instrumento acústico o cantas, va a ser difícil "
+"excluir tu sonido \"local\". Pero debes al menos intentar hacerlo, por "
+"ejemplo utilizando auriculares cerrados con el volumen subido para tapar tu "
+"propio sonido. Esto te permitirá concentrarte en la mezcla que vuelve del "
+"Servidor."
 
 #. type: Plain text
 #: ../wiki/en/FAQ.md:50
