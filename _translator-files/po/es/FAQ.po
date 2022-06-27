@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2022-06-24 17:20+0000\n"
+"PO-Revision-Date: 2022-06-27 06:53+0000\n"
 "Last-Translator: ignotus <darylo1@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/ignotus/faq/es/>"
 "\n"
@@ -79,7 +79,7 @@ msgstr "</details>"
 #. type: Plain text
 #: ../wiki/en/FAQ.md:21
 msgid "TEST10"
-msgstr "TEST10"
+msgstr "TEST11"
 
 #. type: Plain text
 #: ../wiki/en/FAQ.md:23
@@ -104,10 +104,8 @@ msgstr "Ten en cuenta también que todos los participantes deben seguir [La Regl
 
 #. type: Plain text
 #: ../wiki/en/FAQ.md:32
-#, fuzzy
-#| msgid "### How do I know if I can join a server? Are there rules?"
 msgid "### How do I know if I can join a Server? Are there rules?"
-msgstr "### ¿Cómo sé si puedo unirme a un servidor? ¿Hay normas?"
+msgstr "### ¿Cómo sé si puedo unirme a un Servidor? ¿Hay normas?"
 
 #. type: Plain text
 #: ../wiki/en/FAQ.md:34
