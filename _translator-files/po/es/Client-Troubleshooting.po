@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2022-06-27 08:18+0000\n"
+"PO-Revision-Date: 2022-06-27 10:18+0000\n"
 "Last-Translator: ignotus <darylo1@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/ignotus/"
 "client-troubleshooting/es/>\n"
@@ -198,10 +198,13 @@ msgstr "### ¿El LED del buffer se vuelve rojo, cortes, jitter, sonidos raros?"
 
 #. type: Plain text
 #: ../wiki/en/Client-Troubleshooting.md:58
-#, fuzzy
-#| msgid "The CPU in your computer may be having issues. Try not to have anything competing with Jamulus (like Zoom Meetings or Facebook live streams) on your machine. Or at least quit them while you're playing. Prevent things like virus scanners doing scans, or software updates happening, etc. Be aware that the reverb setting in Jamulus also uses more CPU the more reverb you have."
 msgid "Your computer may be under too much load. Try not to have anything competing with Jamulus (like Zoom Meetings or Facebook live streams) on your machine. Or at least quit them while you're playing. Prevent things like virus scanners doing scans, or software updates happening, etc. Be aware that the reverb setting in Jamulus also uses more CPU the more reverb you have."
-msgstr "El CPU de tu ordenador podría estar en apuros. Intenta que no haya nada compitiendo con Jamulus (como reuniones por Zoom o streaming en Facebook) en tu máquina. O al menos apágalos mientras tocas. Evita cosas como escaneos del antivirus o actualizaciones de software, etc. Ten en cuenta que la configuración de reverb en Jamulus también consume más CPU cuanto más reverb se aplique."
+msgstr ""
+"Tu ordenador podría estar sobrecargado. Intenta que no haya nada compitiendo "
+"con Jamulus (como reuniones por Zoom o streaming en Facebook) en tu máquina. "
+"O al menos apágalos mientras tocas. Evita cosas como escaneos del antivirus "
+"o actualizaciones de software, etc. Ten en cuenta que la configuración de "
+"reverb en Jamulus también consume más CPU cuanto más reverb se aplique."
 
 #. type: Plain text
 #: ../wiki/en/Client-Troubleshooting.md:60
@@ -220,10 +223,16 @@ msgstr "### ¿Te frustras con los canales de software, ruteo de audio, tasas de 
 
 #. type: Plain text
 #: ../wiki/en/Client-Troubleshooting.md:66
-#, fuzzy
-#| msgid "It's usually far easier and more reliable to have a [mixing desk](https://www.thomann.de/pics/bdb/191244/7355025_800.jpg) to connect your kit (instruments, mic, recorder etc.) and then send a simple stereo signal to your sound interface (be sure to listen to the resulting sound from the Jamulus server via your computer though!). The huge variety of possible hardware, software and instrument combinations means that setting up your sound card to work with your particular configuration can otherwise get complicated very fast."
 msgid "It's usually far easier and more reliable to have a [mixing desk](https://www.thomann.de/pics/bdb/191244/7355025_800.jpg) to connect your kit (instruments, mic, recorder etc.) and then send a simple stereo signal to your sound interface (be sure to listen to the resulting sound from the Jamulus Server via your computer though!). The huge variety of possible hardware, software and instrument combinations means that setting up your sound card to work with your particular configuration can otherwise get complicated very fast."
-msgstr "Normalmente es mucho más fácil y fiable tener una [mesa de mezclas](https://www.thomann.de/pics/bdb/191244/7355025_800.jpg) para conectar tu equipo (instrumentos, micrófono, grabadora, etc.) y luego enviar una simple señal estéreo a tu interfaz de audio (¡pero asegúrate de escuchar el sonido resultante del servidor Jamulus a través del ordenador!). La enorme variedad de combinaciones posibles de hardware, software e instrumentos significa que configurar tu tarjeta de audio para funcionar con tu equipo en particular se puede complicar rápidamente."
+msgstr ""
+"Normalmente es mucho más fácil y fiable tener una [mesa de "
+"mezclas](https://www.thomann.de/pics/bdb/191244/7355025_800.jpg) para "
+"conectar tu equipo (instrumentos, micrófono, grabadora, etc.) y luego enviar "
+"una simple señal estéreo a tu interfaz de audio (¡pero asegúrate de escuchar "
+"el sonido resultante del Servidor Jamulus a través del ordenador!). La "
+"enorme variedad de combinaciones posibles de hardware, software e "
+"instrumentos significa que configurar tu tarjeta de audio para funcionar con "
+"tu equipo en particular se puede complicar rápidamente."
 
 #. type: Plain text
 #: ../wiki/en/Client-Troubleshooting.md:68
@@ -237,24 +246,25 @@ msgstr "Puedes establecer el \"Nivel Cliente Nuevo\" a un valor bajo (por ej. 10
 
 #. type: Plain text
 #: ../wiki/en/Client-Troubleshooting.md:72
-#, fuzzy
-#| msgid "### Can't see the server you want to join?"
 msgid "### Can't see the Server you want to join?"
-msgstr "### ¿No ves el servidor al que te quieres unir?"
+msgstr "### ¿No ves el Servidor al que te quieres unir?"
 
 #. type: Plain text
 #: ../wiki/en/Client-Troubleshooting.md:74
-#, fuzzy
-#| msgid "First check that you have the right genre server selected in your Connection Setup window. Sometimes network issues mean your client won't list all the available servers. If you know the name of the server you want to join, you can [look up its IP address here](https://explorer.jamulus.io/). Enter the IP address in the \"Server Name/Address\" field in the Connect Setup window to connect to it."
 msgid "First check that you have the right genre Server selected in your Connect window. Sometimes network issues mean your Client won't list all the available Servers. If you know the name of the Server you want to join, you can [look up its IP address here](https://explorer.jamulus.io/). Enter that address in the \"Server Address\" field in the Connect Setup window to connect to it."
-msgstr "Primero comprueba que tienes el género de servidor correcto seleccionado en la ventana de Configuración de Conexión. En ocasiones los problemas de red hacen que tu cliente no muestre todos los servidores disponibles. Si conoces el nombre del servidor al que te quieres unir, puedes [mirar su dirección IP aquí](https://explorer.jamulus.io/). Introduce la dirección IP en el campo de \"Nombre/Dirección Servidor\" en la ventana de Configuración de Conexión para conectarte."
+msgstr ""
+"Primero comprueba que tienes el género de Servidor correcto seleccionado en "
+"la ventana de Conectar. En ocasiones los problemas de red hacen que tu "
+"Cliente no muestre todos los Servidores disponibles. Si conoces el nombre "
+"del Servidor al que te quieres unir, puedes [mirar su dirección IP "
+"aquí](https://explorer.jamulus.io/). Introduce esa dirección en el campo de "
+"\"Dirección Servidor\" en la ventana de Configuración de Conexión para "
+"conectarte."
 
 #. type: Plain text
 #: ../wiki/en/Client-Troubleshooting.md:76
-#, fuzzy
-#| msgid "### Not seeing a list of servers at all?"
 msgid "### Not seeing a list of Servers at all?"
-msgstr "### ¿No ves ninguna lista de servidores?"
+msgstr "### ¿No ves ninguna lista de Servidores?"
 
 #. type: Plain text
 #: ../wiki/en/Client-Troubleshooting.md:78
@@ -263,10 +273,12 @@ msgstr "En el Reino Unido (y posiblemente en otras regiones/routers) la configur
 
 #. type: Plain text
 #: ../wiki/en/Client-Troubleshooting.md:80
-#, fuzzy
-#| msgid "In some cases, it may be your ISP that is blocking your use of Jamulus. See the note on the [server troubleshooting page](Server-Troubleshooting#nobody-can-connect-to-my-server---but-i-can-connect-locally) about \"Nobody can connect to my server\""
 msgid "In some cases, it may be your ISP that is blocking your use of Jamulus. See the note on the [server troubleshooting page](Server-Troubleshooting#nobody-can-connect-to-my-server---but-i-can-connect-locally) about \"Nobody can connect to my Server\""
-msgstr "En algunos casos, puede ser que tu ISP esté bloqueando Jamulus. Ver la nota en la página [resolución de problemas del servidor](Server-Troubleshooting#nadie-se-puede-conectar-a-mi-servidor---pero-yo-me-puedo-conectar-localmente) sobre \"Nadie se puede conectar a mi servidor\""
+msgstr ""
+"En algunos casos, puede ser que tu ISP esté bloqueando Jamulus. Ver la nota "
+"en la página [resolución de problemas del servidor](Server-Troubleshooting"
+"#nadie-se-puede-conectar-a-mi-servidor---pero-yo-me-puedo-conectar-"
+"localmente) sobre \"Nadie se puede conectar a mi Servidor\""
 
 #. type: Plain text
 #: ../wiki/en/Client-Troubleshooting.md:82
