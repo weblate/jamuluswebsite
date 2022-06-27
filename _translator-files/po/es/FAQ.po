@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2022-06-27 06:53+0000\n"
+"PO-Revision-Date: 2022-06-27 07:18+0000\n"
 "Last-Translator: ignotus <darylo1@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/ignotus/faq/es/>"
 "\n"
@@ -109,10 +109,13 @@ msgstr "### ¿Cómo sé si puedo unirme a un Servidor? ¿Hay normas?"
 
 #. type: Plain text
 #: ../wiki/en/FAQ.md:34
-#, fuzzy
-#| msgid "In general, if somebody sets up a public server, they accept that anyone can play on it. Jamulus has no password protection or other authentication mechanisms. However, some servers may state their policies in the welcome message you will see in the chat window."
 msgid "In general, if somebody lists a Server on one of the Public Directories provided by Jamulus by default, they accept that anyone can play on it. Jamulus has no password protection or other authentication mechanisms built in. However, some Servers may state their policies in the welcome message you will see in the chat window."
-msgstr "En general, si alguien monta un servidor público, acepta que cualquiera puede utilizarlo. Jamulus no tiene protección con contraseña ni otros mecanismos de autenticación. Sin embargo, algunos servidores pueden establecer políticas en el mensaje de bienvenida que verás en la ventana del chat."
+msgstr ""
+"En general, si alguien lista un Servidor en uno de los Directorios Públicos "
+"ofrecidos por Jamulus por defecto, acepta que cualquiera puede utilizarlo. "
+"Jamulus no tiene protección con contraseña ni otros mecanismos de "
+"autenticación. Sin embargo, algunos servidores pueden establecer políticas "
+"en el mensaje de bienvenida que verás en la ventana del chat."
 
 #. type: Plain text
 #: ../wiki/en/FAQ.md:36
