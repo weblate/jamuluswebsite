@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2022-06-24 17:20+0000\n"
+"PO-Revision-Date: 2022-06-27 08:18+0000\n"
 "Last-Translator: ignotus <darylo1@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/ignotus/"
 "client-troubleshooting/es/>\n"
