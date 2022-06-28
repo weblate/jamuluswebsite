@@ -6,17 +6,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2022-01-29 01:32+0100\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: fr_FR\n"
+"PO-Revision-Date: 2022-06-28 07:18+0000\n"
+"Last-Translator: ignotus <darylo1@hotmail.com>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/ignotus/"
+"client-troubleshooting/fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 "X-Language: fr_FR\n"
 "X-Source-Language: en_150\n"
-"X-Generator: Poedit 3.0\n"
 
 #. type: YAML Front Matter: lang
 #: ../wiki/en/Client-Troubleshooting.md:1
@@ -44,15 +45,12 @@ msgstr "Dépannage du client"
 
 #. type: Plain text
 #: ../wiki/en/Client-Troubleshooting.md:10
-#, fuzzy, no-wrap
-#| msgid ""
-#| "# Troubleshooting\n"
-#| " {:.no_toc}\n"
+#, no-wrap
 msgid ""
 "# Troubleshooting TEST3\n"
 " {:.no_toc}\n"
 msgstr ""
-"# Dépannage\n"
+"# Dépannage TEST3\n"
 " {:.no_toc}\n"
 
 #. type: Plain text
@@ -123,10 +121,18 @@ msgstr "### Vous avez tous un son correct, mais il est difficile de jouer ensemb
 
 #. type: Plain text
 #: ../wiki/en/Client-Troubleshooting.md:37
-#, fuzzy, no-wrap
-#| msgid "**If at all possible, DO NOT listen to your direct signal.** Make sure you are listening as much as you can to the sound of your own instrument/voice _coming back from the server_. This signal has you and your playing partners mixed together in sync, and will be the signal that your bandmates are hearing too. So listening to that means you will be in sync with each other (assuming you all have reasonably low latency). Note that if one or more musicians are not following this rule, they will slow down as they play or sing.\n"
+#, no-wrap
 msgid "**If at all possible, DO NOT listen to your direct signal.** Make sure you are listening as much as you can to the sound of your own instrument/voice _coming back from the Server_. This signal has you and your playing partners mixed together in sync, and will be the signal that your bandmates are hearing too. So listening to that means you will be in sync with each other (assuming you all have reasonably low latency). Note that if one or more musicians are not following this rule, they will slow down as they play or sing.\n"
-msgstr "**Dans la mesure du possible, N'ÉCOUTEZ PAS votre signal direct**. Assurez-vous d'écouter autant que possible le son de votre propre instrument/voix _qui revient du serveur_. Ce signal est le résultat du mélange et de la synchronisation de votre son avec celui de vos partenaires de jeu, et sera le signal que vos camarades de groupe entendent aussi. L'écoute de ce signal signifie donc que vous serez synchronisés les uns avec les autres (en supposant que vous avez tous une latence raisonnablement faible). Notez que si un ou plusieurs musiciens ne respectent pas cette règle, ils ralentiront leur jeu ou leur chant.\n"
+msgstr ""
+"**Dans la mesure du possible, N'ÉCOUTEZ PAS votre signal direct**. Assurez-"
+"vous d'écouter autant que possible le son de votre propre instrument/voix "
+"_qui revient du Serveur_. Ce signal est le résultat du mélange et de la "
+"synchronisation de votre son avec celui de vos partenaires de jeu, et sera "
+"le signal que vos camarades de groupe entendent aussi. L'écoute de ce signal "
+"signifie donc que vous serez synchronisés les uns avec les autres (en "
+"supposant que vous avez tous une latence raisonnablement faible). Notez que "
+"si un ou plusieurs musiciens ne respectent pas cette règle, ils ralentiront "
+"leur jeu ou leur chant.\n"
 
 #. type: Plain text
 #: ../wiki/en/Client-Troubleshooting.md:39
