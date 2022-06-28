@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2022-06-28 07:18+0000\n"
+"PO-Revision-Date: 2022-06-28 09:17+0000\n"
 "Last-Translator: ignotus <darylo1@hotmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/ignotus/"
 "client-troubleshooting/fr/>\n"
@@ -141,10 +141,10 @@ msgstr "Vous pouvez vérifier si vous entendez correctement votre signal en proc
 
 #. type: Plain text
 #: ../wiki/en/Client-Troubleshooting.md:41
-#, fuzzy
-#| msgid "Run Jamulus and connect to a server with a long ping time (greater than 200ms)"
 msgid "Run Jamulus and connect to a Server with a long ping time (greater than 200ms)"
-msgstr "Lancez Jamulus et connectez-vous à un serveur dont le temps de ping est long (supérieur à 200 ms)"
+msgstr ""
+"Lancez Jamulus et connectez-vous à un Serveur dont le temps de ping est long "
+"(supérieur à 200 ms)"
 
 #. type: Plain text
 #: ../wiki/en/Client-Troubleshooting.md:42
