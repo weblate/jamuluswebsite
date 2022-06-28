@@ -6,9 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2022-06-27 07:39+0000\n"
+"PO-Revision-Date: 2022-06-28 10:10+0000\n"
 "Last-Translator: ignotus <darylo1@hotmail.com>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/ignotus/faq/es/>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/ignotus/faq/es/>"
+"\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -153,10 +154,14 @@ msgstr "### ¿Necesito una conexión rápida de Internet?"
 
 #. type: Plain text
 #: ../wiki/en/FAQ.md:52
-#, fuzzy
-#| msgid "No, especially if you don't run a server to host other musicians. Having a low ping is more important. For most people on standard broadband (e.g. 10 Mbit/s down and 1 Mbit/s up) you will have no problems. For those running servers at home, depending on how many people join, you may encounter issues if your _upstream_ bandwidth is lower than about 5 Mbit/s."
 msgid "No, especially if you don't run a Server to host other musicians. Having a low ping is more important. For most people on standard broadband (e.g. 10 Mbit/s down and 1 Mbit/s up) you will have no problems. For those running Servers at home, depending on how many people join, you may encounter issues if your _upstream_ bandwidth is lower than about 5 Mbit/s."
-msgstr "No, sobre todo si no gestionas un servidor para alojar a otros músicos. Tener un ping bajo es más importante. Para la mayoría con banda ancha normal (por ej. 10 Mbit/s de bajada y 1 Mbit/s de subida) no habrá problemas. Para los que ejecutan servidores en casa, dependiendo de cuánta gente se conecta a él, podrías tener problemas si tu ancho de banda de _subida_ es menor de unos 5 Mbit/s."
+msgstr ""
+"No, sobre todo si no gestionas un Servidor para alojar a otros músicos. "
+"Tener un ping bajo es más importante. Para la mayoría con banda ancha normal "
+"(por ej. 10 Mbit/s de bajada y 1 Mbit/s de subida) no habrá problemas. Para "
+"los que ejecutan Servidores en casa, dependiendo de cuánta gente se conecta "
+"a él, podrías tener problemas si tu ancho de banda de _subida_ es menor de "
+"unos 5 Mbit/s."
 
 #. type: Plain text
 #: ../wiki/en/FAQ.md:54
