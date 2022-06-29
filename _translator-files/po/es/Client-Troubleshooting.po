@@ -7,15 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-06-28 12:30+0200\n"
+"PO-Revision-Date: 2022-06-29 07:14+0000\n"
 "Last-Translator: ignotus <darylo1@hotmail.com>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/ignotus/client-troubleshooting/es/>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/ignotus/"
+"client-troubleshooting/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.1\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 
 #. type: YAML Front Matter: lang
 #: ../wiki/en/Client-Troubleshooting.md:1
@@ -115,7 +116,9 @@ msgstr "Quizá tu dispositivo de audio no funciona con el tamaño de buffer que 
 #. type: Plain text
 #: ../wiki/en/Client-Troubleshooting.md:35
 msgid "### You all sound OK, but it's difficult to keep together"
-msgstr "### Todos suenan bien pero es difícil tocar todos juntos manteniendo el tiempo"
+msgstr ""
+"### Todos suenan bien pero es difícil tocar todos juntos manteniendo el "
+"tiempo"
 
 #. type: Plain text
 #: ../wiki/en/Client-Troubleshooting.md:37
