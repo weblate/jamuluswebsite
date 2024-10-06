@@ -137,7 +137,7 @@ msgid ""
 "</figure>\n"
 msgstr ""
 "<figure>\n"
-"  <img src=\"{% include img/th-screenshots/main-screen-default.inc %}\" loading=\"lazy\" alt=\"Screenshot\" style=\"border: 5px solid grey;\">\n"
+"  <img src=\"{% include img/en-screenshots/main-screen-default.inc %}\" loading=\"lazy\" alt=\"Screenshot\" style=\"border: 5px solid grey;\">\n"
 "  <figcaption> หน้าต่างหลักที่จะแสดงก่อนที่คุณจะเชื่อมต่อกับเซิร์ฟเวอร์ </figcaption>\n"
 "</figure>\n"
 
