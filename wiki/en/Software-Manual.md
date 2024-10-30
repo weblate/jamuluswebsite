@@ -161,7 +161,7 @@ This option can be used in addition to the others to move your own channel to al
 This does not take any user details into account when sorting.  It sorts by the order channels join the current server, with new channels being added to the right-hand end.
 * Sort by Name<br/>
 Sorts by the name someone has chosen in their profile.
-* Sort by Instrument / City
+* Sort by Instrument / City<br/>
 Sorts by the instrument or city someone has in their profile, along with their name.
 * Sort by Group<br/>
 Where the fader group feature is in use, this sorts in ascending group number from left to right (and within that, by name), with all ungrouped channel off to the right.
