@@ -503,3 +503,6 @@ See above. Not fully verified.
 * **Line6 Bass POD**, ❌ USB amplifier modeling pedal for bass. **Does not support 48 kHz**.
 
 * **Yamaha THR5 THR10 Series**, ❌ USB modeling amplifier. **Does not support 48 kHz**.
+
+
+* **Apple AirPods**, ❌ Wireless headphones. **Do not support 48 kHz.** Sound may come through sporadically on iOS
