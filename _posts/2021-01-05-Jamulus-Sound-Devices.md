@@ -48,6 +48,19 @@ On Windows, it’s recommended to choose a device with a *native ASIO driver* - 
 
 **Linux**: ❓ Not yet tested.
 
+**[Apple USB-C to 3.5 mm Headphone Jack Adapter](https://www.apple.com/shop/product/MW2Q3AM/A/usb-c-to-35-mm-headphone-jack-adapter)**, very affordable DAC for wired earphones with microphone.
+
+**Windows**: ❓ Not yet tested. Will need ASIO4All
+
+**macOS**: ❓ Not yet tested. Should work well. 
+
+**Linux**: ❓ Not yet tested.
+
+**iOS**: ✅ Works well with decent wired headphones.
+
+_**Note**: Choosing decent wired headphones is key. The standard, [wired Apple EarPods] 
+(https://www.apple.com/shop/product/MWU53AM/A/earpods-35mm-headphone-plug) with microphone are enough as entry level audio device but the microphone may have an audible noise floor._
+
 #### Microphones / DI Boxes
 
 **[Blue Yeti](https://www.bluemic.com/en-us/products/yeti/)**, USB Microphone
