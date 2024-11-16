@@ -50,7 +50,7 @@ On Windows, it’s recommended to choose a device with a *native ASIO driver* - 
 
 **[Apple USB-C to 3.5 mm Headphone Jack Adapter](https://www.apple.com/shop/product/MW2Q3AM/A/usb-c-to-35-mm-headphone-jack-adapter)**, very affordable DAC for wired earphones with microphone.
 
-**Windows**: ❓ Not yet tested. Will need ASIO4All
+**Windows**: 😐 Doesn't work well. Using ASIO4ALL sometimes leads to distorted sound.
 
 **macOS**: ❓ Not yet tested. Should work well. 
 
