@@ -54,11 +54,11 @@ On Windows, it’s recommended to choose a device with a *native ASIO driver* - 
 
 **macOS**: ❓ Not yet tested. Should work well. 
 
-**Linux**: ❓ Not yet tested.
+**Linux**: ✅ Works well with decent wired headphones. 
 
 **iOS**: ✅ Works well with decent wired headphones.
 
-**Note**: Choosing decent wired headphones is key. The standard, [wired Apple EarPods] (https://www.apple.com/shop/product/MWU53AM/A/earpods-35mm-headphone-plug) with microphone are enough as _entry level_ audio device but the microphone may have an audible noise floor.
+**Note**: Choosing decent wired headphones is key. The standard, [wired Apple EarPods](https://www.apple.com/shop/product/MWU53AM/A/earpods-35mm-headphone-plug) with microphone are enough as _entry level_ audio device but the microphone may have an audible noise floor and not enough dynamic range. It might clip for loud noises.
 
 #### Microphones / DI Boxes
 
@@ -284,7 +284,13 @@ _More testing required._
 
 **[Roland TD-27](https://www.roland.com/uk/products/td-27/)** USB drum sound module 
 
-**Windows**: ❌ Works (with provided ASIO driver, tested Windows 10), but **not** reccomended for Jamulus as you can't mute your direct sound.
+**Windows**: ✅ Works. The local master signal is always routed to the Headphones. Using JACK is neccessary to change the signal-routing so that you hear your signal on the headphones - not the local signal of the drum module:
+Configuration Changes: On the TD27 open: SYSTEM -> USB-AUDIO: Driver Mode VENDOR
+                                         SYSTEM -> OUTPUT -> PAD MAS: remove any pad signal from MASTER(L+R);
+                                                             PAD DIR: add desired(all) pad signals to DIRECT(1/2)
+                                                             OTHER MAS: remove any signal and add just USB-IN to MASTER(L/R)
+In Jamulus set Audio-Device: TD27, Input Channel: Direct(1/2), output Channel: Main(1/2).
+Now the Jamulus signal will be sent to the master output jack of the TD27. (You probably need a headphone amplifier to connect you headphones to the master output jack) 
 
 **macOS**: ❓ Not yet tested.
 
