@@ -54,11 +54,11 @@ On Windows, it’s recommended to choose a device with a *native ASIO driver* - 
 
 **macOS**: ❓ Not yet tested. Should work well. 
 
-**Linux**: ❓ Not yet tested.
+**Linux**: ✅ Works well with decent wired headphones. 
 
 **iOS**: ✅ Works well with decent wired headphones.
 
-**Note**: Choosing decent wired headphones is key. The standard, [wired Apple EarPods] (https://www.apple.com/shop/product/MWU53AM/A/earpods-35mm-headphone-plug) with microphone are enough as _entry level_ audio device but the microphone may have an audible noise floor.
+**Note**: Choosing decent wired headphones is key. The standard, [wired Apple EarPods](https://www.apple.com/shop/product/MWU53AM/A/earpods-35mm-headphone-plug) with microphone are enough as _entry level_ audio device but the microphone may have an audible noise floor and not enough dynamic range. It might clip for loud noises.
 
 #### Microphones / DI Boxes
 
