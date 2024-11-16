@@ -52,7 +52,7 @@ On Windows, it’s recommended to choose a device with a *native ASIO driver* - 
 
 **Windows**: 😐 Doesn't work well. Using ASIO4ALL sometimes leads to distorted sound.
 
-**macOS**: ❓ Not yet tested. Should work well. 
+**macOS**: ✅ Works well with decent wired headphones. 
 
 **Linux**: ✅ Works well with decent wired headphones. 
 
