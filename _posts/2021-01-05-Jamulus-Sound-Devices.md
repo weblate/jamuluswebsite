@@ -290,7 +290,7 @@ Configuration Changes: On the TD27 open: SYSTEM -> USB-AUDIO: Driver Mode VENDOR
                                                              PAD DIR: add desired(all) pad signals to DIRECT(1/2)
                                                              OTHER MAS: remove any signal and add just USB-IN to MASTER(L/R)
 In Jamulus set Audio-Device: TD27, Input Channel: Direct(1/2), output Channel: Main(1/2).
-Now the Jamulus signal will be sent to the master output jack of the TD27. (You probably need a headphone amplifier to connect you headphones to the master output jack) 
+Now the Jamulus signal will be sent to the master output jack of the TD27. (You probably need a headphone amplifier to connect your headphones to the master output jack) 
 
 **macOS**: ❓ Not yet tested.
 
