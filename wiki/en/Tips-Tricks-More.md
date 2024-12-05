@@ -96,7 +96,7 @@ Fader strips in the mixer window are controlled in numerical order. Continuing w
 
 Make sure you connect your MIDI device's output port to the Jamulus MIDI in port (QjackCtl (Linux/Windows), MIDI Studio (macOS) or whatever you use for managing connections). In Linux you may need to install and launch a2jmidid so your device shows up in the MIDI tab in Qjackctl.
 
-*Tip*: When you enable MIDI control in Jamulus, each user's name is prepended with a number, with the first user starting at 0, then 1, etc. With default settings, when some users leave and others join, their left-right arrangement in the GUI may cease to follow a numerical order, making it more difficult to know who each physical fader/knob on your MIDI controller corresponds to. To keep the fader strips following a numerical order, go to "View" on the top menu bar and switch to "Sort by Server Channel" (or type `Ctrl+R`).  You will probably also want to switch _off_ "Own Fader First" if it is on.
+*Tip*: When you enable MIDI control in Jamulus, each user's name is prepended with a number, with the first user starting at 0, then 1, etc. With default settings, when some users leave and others join, their left-right arrangement in the GUI may cease to follow a numerical order, making it more difficult to know who each physical fader/knob on your MIDI controller corresponds to. To keep the fader strips following a numerical order, go to "View" on the top menu bar and switch to "Sort by Channel" (or type `Ctrl+E`).  In Jamulus version 3.12.0 onwards, when connected to a server of at least version 3.5.5, your own fader will always be given channel 0, and so will appear first, whether or not "Own Fader First" is enabled.
 
 ## For Server admins
 

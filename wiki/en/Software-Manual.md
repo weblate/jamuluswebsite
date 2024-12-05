@@ -109,6 +109,13 @@ If you have set your Audio Channel to Stereo or Stereo Out in your Settings, you
 
 If you see a "mute" icon above a user, it means that person cannot hear you. Either they have muted you, soloed one or more users not including you, or have set your fader in their mix to zero.
 
+Users usually appear left-to-right in the order that they connect. When joining a server that already has participants, the default order depends
+on the versions of Jamulus at the client and the server. With a client version before 3.12.0 or a server version older than 3.5.5, the existing participants will be shown before
+your own fader channel. With a client of 3.12.0 or later connected to a server of 3.5.5 or newer, your own fader will be shown first, with the other existing participants shown to the right.
+In either case, participants joining subsequently will by default appear to the right of all the existing participants.
+
+You can override this order and sort instead by name, instrument, group, city or channel number using the View menu. See Menu Commands below.
+
 If the server operator has enabled recording, you will see a message above the mixer showing that you are being recorded.
 
 ### Grp button
@@ -155,18 +162,19 @@ Applies a one-off fader setting to each channel depending on its volume. Useful 
 
 Most items under the "View" menu allow you to adjust the order Jamulus chooses to display channels on the server:
 * Own Fader First<br/>
-This option can be used in addition to the others to move your own channel to always be the leftmost.
+This option can be used in addition to the others to move your own channel to always be the leftmost, irrespective of the sort order of the other channels.
 
 * No user sorting<br/>
-This does not take any user details into account when sorting.  It sorts by the order channels join the current server, with new channels being added to the right-hand end.
+This does not take any user details into account when sorting.  It sorts by the order channels join the current server as described further up, with new channels being added to the right-hand end.
 * Sort by Name<br/>
 Sorts by the name someone has chosen in their profile.
 * Sort by Instrument / City<br/>
 Sorts by the instrument or city someone has in their profile, along with their name.
 * Sort by Group<br/>
 Where the fader group feature is in use, this sorts in ascending group number from left to right (and within that, by name), with all ungrouped channel off to the right.
-* Sort by Server Channel<br/>
-Where Jamulus channel controls (fader, mute, solo, etc) are being controlled by MIDI (see [Using --ctrlmidich for MIDI controllers](Tips-Tricks-More#using-ctrlmidich-for-midi-controllers)), this sorts by the server-assigned channel number to help ensure a stable sort order that aligns with MIDI hardware controls.
+* Sort by Channel<br/>
+Where Jamulus channel controls (fader, mute, solo, etc) are being controlled by MIDI (see [Using --ctrlmidich for MIDI controllers](Tips-Tricks-More#using-ctrlmidich-for-midi-controllers)), this sorts by the channel number to help ensure a stable sort order that aligns with MIDI hardware controls.
+Note that in Jamulus clients before version 3.12.0, channel numbers are assigned directly by the server. Clients from 3.12.0 onwards manage their own channel number assignments and always assign channel 0 to the local user (provided the server version is at least 3.5.5).
 
 ### View > Chat
 
