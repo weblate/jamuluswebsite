@@ -71,7 +71,7 @@ to the right and move the fader upwards until the desired reverb level is reache
 
 Opens the chat window. Text entered is sent to
 all connected Clients. If a new chat message arrives and the Chat dialogue is not already open, it will
-open automatically for all Clients. See Settings to optionally turn on a sound alert when a new chat message is received.
+open automatically for all Clients. See Settings to optionally turn on a sound alert when a new chat message arrives.
 
 ## Connect/disconnect button
 
@@ -140,7 +140,7 @@ Opens the [connection dialogue (see above)](#connectdisconnect-button).
 
 ### File > Load/Save Mixer Channels Setup
 
-You can save and restore the mix you have for your band rehearsals (fader, mute, pan, solo etc.) and load these any time (even while you are playing). Loading can also be done by drag/drop to the mixer window.
+You can save and restore the mix you have for your band. This stores your settings for each person's fader volume, pan setting, mute and solo state. You can load this mix any time (even while you are playing). Loading can also be done by drag/drop to the mixer window.
 
 ### File > Exit
 
@@ -148,7 +148,7 @@ Closes all the windows and exits the application.
 
 ### Edit > Clear All Stored Solo/Mute Settings
 
-Whenever you Solo or Mute a channel, Jamulus stores the settings against them, so that if they leave and rejoin - or you join a server where they are playing - the settings will automatically be applied.  If you want clear _all_ stored settings, you can do it here.
+Whenever you Solo or Mute a channel, Jamulus remembers these settings. Even if that person leaves and rejoins - or you join a server where they are playing - the settings will automatically be applied.  Use this command to clear _all_ these stored settings.
 
 ### Edit > Set All Faders to New Client Level
 
@@ -156,7 +156,7 @@ Applies the [configured "New Client Level"](#new-client-level) to all currently 
 
 ### Edit > Auto-Adjust All Faders
 
-Applies a one-off fader setting to each channel depending on its volume. Useful for large ensembles to get a reasonable overall mix, although individual adjustments might still be necessary. Best applied during a warm-up or a uniform part of the music piece.
+Applies a one-off fader adjustment to each channel depending on its volume. Useful for large ensembles to get a reasonable overall mix, although individual adjustments might still be necessary. Best applied during a warm-up or a uniform part of the music piece.
 
 ### View > (sort options)
 
@@ -171,7 +171,7 @@ Sorts by the name someone has chosen in their profile.
 * Sort by Instrument / City<br/>
 Sorts by the instrument or city someone has in their profile, along with their name.
 * Sort by Group<br/>
-Where the fader group feature is in use, this sorts in ascending group number from left to right (and within that, by name), with all ungrouped channel off to the right.
+Where the fader group feature is in use, this sorts in ascending group number from left to right (and within that, by name), with any ungrouped channels off to the right.
 * Sort by Channel<br/>
 Where Jamulus channel controls (fader, mute, solo, etc) are being controlled by MIDI (see [Using --ctrlmidich for MIDI controllers](Tips-Tricks-More#using-ctrlmidich-for-midi-controllers)), this sorts by the channel number to help ensure a stable sort order that aligns with MIDI hardware controls.
 Note that in Jamulus clients before version 3.12.0, channel numbers are assigned directly by the server. Clients from 3.12.0 onwards manage their own channel number assignments and always assign channel 0 to the local user (provided the server version is at least 3.5.5).
@@ -237,7 +237,7 @@ a different actual sound card channel can be selected.
 
 ### Audio channels
 
-Selects the number of audio channels to be used for communication between Client and server.
+Selects the number of audio channels to be used for communication between Client and Server.
 
 **Note**: It is better to run separate Client instances per voice/instrument, where each Client has its own ini file, rather than using this built-in mono pair to stereo mixer.
 
