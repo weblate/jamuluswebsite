@@ -109,9 +109,9 @@ If you have set your Audio Channel to Stereo or Stereo Out in your Settings, you
 
 If you see a "mute" icon above a user, it means that person cannot hear you. Either they have muted you, soloed one or more users not including you, or have set your fader in their mix to zero.
 
-Users usually appear left-to-right in the order that they connect. When joining a server that already has participants, the default order depends
-on the versions of Jamulus at the client and the server. With a client version before 3.12.0 or a server version older than 3.5.5, the existing participants will be shown before
-your own fader channel. With a client of 3.12.0 or later connected to a server of 3.5.5 or newer, your own fader will be shown first, with the other existing participants shown to the right.
+Users usually appear left-to-right in the order that they connect. When joining a server that already has participants, the default order depends on the versions of Jamulus at the client and the server.
+With a client version before 3.12.0 or a server version older than 3.5.5, the existing participants will be shown before your own fader channel.
+With a client of 3.12.0 or later connected to a server of 3.5.5 or newer, your own fader will be shown first, with the other existing participants shown to the right.
 In either case, participants joining subsequently will by default appear to the right of all the existing participants.
 
 You can override this order and sort instead by name, instrument, group, city or channel number using the View menu. See Menu Commands below.

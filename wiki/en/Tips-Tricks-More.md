@@ -92,7 +92,7 @@ Please note that for the functions controlled by buttons to work properly, your 
 
 *Note*: Jamulus does not provide feedback on the on/off state of buttons, meaning that your controller must keep track and toggle LEDs (if any) to 'on' or 'off' itself.
 
-Fader strips in the mixer window are controlled in numerical order. Continuing with the above example, in strip numbered 0, the volume fader would be controlled by CC number 0; pan by 16; solo by 32 and mute by 48. As we have specified 8 consecutive controllers for each parameter, this would give us MIDI control over 8 strips (volume, pan, solo and mute in each one) in the mixer window. The next strip would be controlled by 1, 17, 33 and 49, and so forth.
+Fader strips in the mixer window are controlled in ascending numerical order. Continuing with the above example, in strip numbered 0, the volume fader would be controlled by CC number 0; pan by 16; solo by 32 and mute by 48. As we have specified 8 consecutive controllers for each parameter, this would give us MIDI control over 8 strips (volume, pan, solo and mute in each one) in the mixer window. The next strip would be controlled by 1, 17, 33 and 49, and so forth.
 
 Make sure you connect your MIDI device's output port to the Jamulus MIDI in port (QjackCtl (Linux/Windows), MIDI Studio (macOS) or whatever you use for managing connections). In Linux you may need to install and launch a2jmidid so your device shows up in the MIDI tab in Qjackctl.
 
