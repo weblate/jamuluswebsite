@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2024-09-30 21:08+0000\n"
+"PO-Revision-Date: 2024-12-08 20:00+0000\n"
 "Last-Translator: ignotus <ignotus666@users.noreply.hosted.weblate.org>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #. type: Yaml Front Matter Hash Value: lang
 #: ../wiki/en/Software-Manual.md:1
@@ -76,10 +76,9 @@ msgstr ""
 
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:20
-#, fuzzy, no-wrap
-#| msgid "</details> \n"
+#, no-wrap
 msgid "</details>\n"
-msgstr "</details> \n"
+msgstr "</details>\n"
 
 #. type: Title #
 #: ../wiki/en/Software-Manual.md:21
@@ -109,10 +108,9 @@ msgstr "Ping, Retardo y Jitter"
 
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:32
-#, fuzzy, no-wrap
-#| msgid "**Ping** shows your network latency in milliseconds, the lower the better. Ping time contributes to overall delay (see below). The most probable cause of a high ping is that your distance to the server is too large.   \n"
+#, no-wrap
 msgid "**Ping** shows your network latency in milliseconds, the lower the better. Ping time contributes to overall delay (see below). The most probable cause of a high ping is that your distance to the server is too large.\n"
-msgstr "**Ping** muestra tu latencia de red en milisegundos, y cuanto más bajo, mejor. El tiempo ping contribuye al retardo total (ver abajo). La causa más probable de un ping alto es que tu distancia al servidor es demasiado grande.   \n"
+msgstr "**Ping** muestra tu latencia de red en milisegundos, y cuanto más bajo, mejor. El tiempo ping contribuye al retardo total (ver abajo). La causa más probable de un ping alto es que tu distancia al servidor es demasiado grande.\n"
 
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:34
@@ -223,10 +221,8 @@ msgstr "Chat"
 
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:75
-#, fuzzy
-#| msgid "Opens the chat window. Text entered is sent to all connected Clients. If a new chat message arrives and the Chat dialogue is not already open, it will open automatically for all Clients. See Settings to optionally turn on a sound alert when a new chat message is received."
 msgid "Opens the chat window. Text entered is sent to all connected Clients. If a new chat message arrives and the Chat dialogue is not already open, it will open automatically for all Clients. See Settings to optionally turn on a sound alert when a new chat message arrives."
-msgstr "Abre la ventana de chat. El texto escrito aquí es enviado a todos los Clientes conectados. Si llega un nuevo mensaje de chat y la ventana del Chat no está abierta, se abrirá automáticamente para todos los Clientes. Ver Configuración para opcionalmente habilitar una alerta sonora cuando se recibe un nuevo mensaje de chat."
+msgstr "Abre la ventana de chat. El texto escrito aquí es enviado a todos los Clientes conectados. Si llega un nuevo mensaje de chat y la ventana del Chat no está abierta, se abrirá automáticamente para todos los Clientes. Ver Configuración para opcionalmente habilitar una alerta sonora cuando llega un nuevo mensaje de chat."
 
 #. type: Title ##
 #: ../wiki/en/Software-Manual.md:76
@@ -300,14 +296,12 @@ msgstr "Si ves un icono de \"mute\" sobre un usuario, significa que esa persona 
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:116
 msgid "Users usually appear left-to-right in the order that they connect. When joining a server that already has participants, the default order depends on the versions of Jamulus at the client and the server.  With a client version before 3.12.0 or a server version older than 3.5.5, the existing participants will be shown before your own fader channel.  With a client of 3.12.0 or later connected to a server of 3.5.5 or newer, your own fader will be shown first, with the other existing participants shown to the right.  In either case, participants joining subsequently will by default appear to the right of all the existing participants."
-msgstr ""
+msgstr "Los usuarios normalmente aparecen de izquierda a derecha en el orden que se conectan. Cuando se unen a un servidor que ya tiene participantes, el orden que se sigue por defecto depende de las versiones de Jamulus en el cliente y el servidor.  Con una versión de cliente anterior a 3.12.0 o una versión de servidor anterior a 3.5.5, los participantes existentes serán mostrados antes de tu propio fader de canal.  Con un cliente versión 3.12.0 o más reciente conectado a un servidor versión 3.5.5 o más reciente, tu propio fader será mostrado primero, con los otros participantes existentes mostrados a la derecha.  En cualquier caso, los participantes que se unan posteriormente aparecerán por defecto a la derecha de todos los participantes existentes."
 
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:118
-#, fuzzy
-#| msgid "Users usually appear left-to-right in the order that they connect. You can sort instead by name, instrument, group, or city using the View menu."
 msgid "You can override this order and sort instead by name, instrument, group, city or channel number using the View menu. See Menu Commands below."
-msgstr "Los usuarios normalmente se muestran de izquierda a derecha en el orden en el que se conectan. Puedes cambiar el orden, por nombre, instrumento, grupo o ciudad utilizando el menú en Ver."
+msgstr "Puedes invalidar este orden y ordenar por nombre, instrumento, grupo, ciudad o número de canal utilizando el menú de Ver. Véanse los Comandos de Menú más abajo."
 
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:120
@@ -362,12 +356,12 @@ msgstr "Comandos del menú"
 #: ../wiki/en/Software-Manual.md:137
 #, no-wrap
 msgid "File > Connection Setup..."
-msgstr ""
+msgstr "Archivo > Configuración de Conexión..."
 
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:140
 msgid "Opens the [connection dialogue (see above)](#connectdisconnect-button)."
-msgstr ""
+msgstr "Abre la [ventana de conexiones (ver más arriba)](#botón-conexióndesconexión)."
 
 #. type: Title ###
 #: ../wiki/en/Software-Manual.md:141
@@ -377,63 +371,58 @@ msgstr "Archivo > Cargar/Guardar Configuración Canales Mezclador"
 
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:144
-#, fuzzy
-#| msgid "You can save and restore the mix you have for your band rehearsals (fader, mute, pan, solo etc.) and load these any time (even while you are playing). Loading can also be done by drag/drop to the mixer window."
 msgid "You can save and restore the mix you have for your band. This stores your settings for each person's fader volume, pan setting, mute and solo state. You can load this mix any time (even while you are playing). Loading can also be done by drag/drop to the mixer window."
-msgstr "Puedes guardar y restaurar la mezcla que tienes para los ensayos de tu grupo (fader, mute, pan, solo, etc.) y cargarlos en cualquier momento (incluso mientras tocas). Se pueden cargar también arrastrando y dejando caer en la ventana del mezclador."
+msgstr "Puedes guardar y restaurar la mezcla que tienes para tu grupo. Esto guarda tu configuración para el volumen, paneo, mute y solo de cada persona. Puedes cargar esta mezcla en cualquier momento (incluso mientras tocas). Se puede cargar también arrastrando y dejando caer el archivo de configuración en la ventana del mezclador."
 
 #. type: Title ###
 #: ../wiki/en/Software-Manual.md:145
 #, no-wrap
 msgid "File > Exit"
-msgstr ""
+msgstr "Archivo > Salir"
 
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:148
 msgid "Closes all the windows and exits the application."
-msgstr ""
+msgstr "Cierra todas las ventanas y la aplicación en sí."
 
 #. type: Title ###
 #: ../wiki/en/Software-Manual.md:149
 #, no-wrap
 msgid "Edit > Clear All Stored Solo/Mute Settings"
-msgstr ""
+msgstr "Editar > Eliminar todas las configuraciones de Solo y Mute"
 
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:152
 msgid "Whenever you Solo or Mute a channel, Jamulus remembers these settings. Even if that person leaves and rejoins - or you join a server where they are playing - the settings will automatically be applied.  Use this command to clear _all_ these stored settings."
-msgstr ""
+msgstr "Cuando aplicas Solo o Mute a un canal, Jamulus recuerda estas configuraciones. Aunque esa persona se marche y luego vuelva - o tú te unes a un servidor donde esa persona está tocando - se aplicará automáticamente la configuración. Utiliza este comando para eliminar _todas_ estas configuraciones guardadas."
 
 #. type: Title ###
 #: ../wiki/en/Software-Manual.md:153
 #, no-wrap
 msgid "Edit > Set All Faders to New Client Level"
-msgstr ""
+msgstr "Editar > Todos los faders al nivel Cliente nuevo"
 
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:156
 msgid "Applies the [configured \"New Client Level\"](#new-client-level) to all currently connected channels."
-msgstr ""
+msgstr "Aplica el [\"Nivel Cliente Nuevo\" configurado](#nivel-cliente-nuevo) a todos los canales actualmente conectados."
 
 #. type: Title ###
 #: ../wiki/en/Software-Manual.md:157
-#, fuzzy, no-wrap
-#| msgid "Edit > Auto-Adjust All Faders "
+#, no-wrap
 msgid "Edit > Auto-Adjust All Faders"
-msgstr "Editar > Auto-Ajustar todos los Faders "
+msgstr "Editar > Auto-Ajustar todos los Faders"
 
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:160
-#, fuzzy
-#| msgid "Applies a one-off fader setting to each channel depending on its volume. Useful for large ensembles to get a reasonable overall mix, although individual adjustments might still be necessary. Best applied during a warm-up or a uniform part of the music piece."
 msgid "Applies a one-off fader adjustment to each channel depending on its volume. Useful for large ensembles to get a reasonable overall mix, although individual adjustments might still be necessary. Best applied during a warm-up or a uniform part of the music piece."
-msgstr "Aplica una configuración puntual a cada canal dependiendo de su volumen. Útil para grandes conjuntos, para obtener una mezcla general razonable, aunquepuede que sea necesario realizar algún ajuste individual. Se aconseja aplicarlo durante el calentamiento o durante una parte uniforme de la pieza a tocar."
+msgstr "Aplica un ajuste puntual a cada canal dependiendo de su volumen. Útil para grandes conjuntos, para obtener una mezcla general razonable, aunque puede que sea necesario realizar algún ajuste individual. Se aconseja aplicarlo durante el calentamiento o durante una parte uniforme de la pieza a tocar."
 
 #. type: Title ###
 #: ../wiki/en/Software-Manual.md:161
 #, no-wrap
 msgid "View > (sort options)"
-msgstr ""
+msgstr "Ver > (opciones de orden)"
 
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:166
@@ -443,6 +432,9 @@ msgid ""
 "* Own Fader First<br/>\n"
 "This option can be used in addition to the others to move your own channel to always be the leftmost, irrespective of the sort order of the other channels.\n"
 msgstr ""
+"La mayoría de los ítems en el menú de \"Ver\" te permiten ajustar el orden que escoge Jamulus para mostrar los canales del servidor.\n"
+"* Fader Propio Primero<br/>\n"
+"Esta opción se puede utilizar sumada a las otras para que tu canal siempre esté en el extremo izquierdo, sin importar el orden escogido para los demás canales.\n"
 
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:178
@@ -460,40 +452,50 @@ msgid ""
 "Where Jamulus channel controls (fader, mute, solo, etc) are being controlled by MIDI (see [Using --ctrlmidich for MIDI controllers](Tips-Tricks-More#using-ctrlmidich-for-midi-controllers)), this sorts by the channel number to help ensure a stable sort order that aligns with MIDI hardware controls.\n"
 "Note that in Jamulus clients before version 3.12.0, channel numbers are assigned directly by the server. Clients from 3.12.0 onwards manage their own channel number assignments and always assign channel 0 to the local user (provided the server version is at least 3.5.5).\n"
 msgstr ""
+"* No ordenar usuarios<br/>\n"
+"Esto no tiene en cuenta ningún dato de los usuarios al ordenar. Ordena según el orden en el que se unen al servidor actual como se describe arriba, añadiendo canales nuevos en el extremo derecho.\n"
+"* Ordenar Usuarios por Nombre<br/>\n"
+"Ordena según el nombre escogido por el usuario en su perfil.\n"
+"* Ordenar Usuarios por Instrumento / Ciudad<br/>\n"
+"Ordena según el instrumento o la ciudad que la persona tiene en su perfil, junto con su nombre.\n"
+"* Ordenar Usuarios de Canal por Grupo<br/>\n"
+"Cuando se utiliza la función de agrupar faders, esto ordena por número de grupo en orden ascendente (y dentro de éste, por nombre), con cualquier canal no agrupado a la derecha.\n"
+"* Ordenar Usuarios por Canal<br/>\n"
+"Cuando los controles de canal de Jamulus (fader, mute, solo, etc) se controlan mediante MIDI (véase [Utilizar --ctrlmidich para controladores MIDI](Tips-Tricks-More#utilizar-ctrlmidich-para-controladores midi)), esto ordena por número de canal para ayudar a asegurar un orden estable que se alinee con los controles de hardware MIDI.\n"
+"Nótese que en clientes de Jamulus anteriores a la versión 3.12.0, los números de canal son asignados directamente por el servidor. Los clientes desde 3.12.0 en adelante gestionan su propia asignación de números de canal y siempre asignan el canal 0 al usuario local (siempre y cuando la versión del servidor sea al menos 3.5.5).\n"
 
 #. type: Title ###
 #: ../wiki/en/Software-Manual.md:179
 #, no-wrap
 msgid "View > Chat"
-msgstr ""
+msgstr "Ver > Chat"
 
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:182
 msgid "Opens the [Chat](#chat) window."
-msgstr ""
+msgstr "Abre la ventana del [Chat](#chat)."
 
 #. type: Title ###
 #: ../wiki/en/Software-Manual.md:183
-#, fuzzy, no-wrap
-#| msgid "Settings"
+#, no-wrap
 msgid "Settings Menu"
-msgstr "Configuración"
+msgstr "Menú de Configuración"
 
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:186
 msgid "Allows direct access to each of the [Settings](#settings) tabs."
-msgstr ""
+msgstr "Permite acceso directo a cada una de las pestañas de [Configuración](#configuración)."
 
 #. type: Title ###
 #: ../wiki/en/Software-Manual.md:187
 #, no-wrap
 msgid "Help"
-msgstr ""
+msgstr "Ayuda"
 
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:190
 msgid "Provides access to the [Getting Started](Getting-Started) and [User Manual](Software-Manual) (this page) on the website, along with copyright, licence and acknowledgement details.  There is also a \"What's This?\" option for getting more details on parts of the client display."
-msgstr ""
+msgstr "Ofrece acceso a las páginas de [Cómo Empezar](Getting-Started) y al [Manual del Usuario(Software-Manual) (esta página) en la página web, junto con detalles sobre el copyright, la licencia y la atribución.  También hay una opción de \"¿Qué es esto?\" para obtener más detalles sobre partes de la interfaz de usuario."
 
 #. type: Title #
 #: ../wiki/en/Software-Manual.md:192
@@ -621,8 +623,6 @@ msgstr "Canales de Audio"
 
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:241
-#, fuzzy
-#| msgid "Selects the number of audio channels to be used for communication between Client and server."
 msgid "Selects the number of audio channels to be used for communication between Client and Server."
 msgstr "Selecciona el número de canales de audio a utilizar para la comunicación entre Cliente y Servidor."
 
@@ -850,10 +850,9 @@ msgstr "{% include_relative Include-Backing-Up.md %} * Puedes guardar y cargar d
 
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:347
-#, fuzzy, no-wrap
-#| msgid "**Note for macOS users:** As of Jamulus 3.8.1, we have a signed installer. This will store the settings in \n"
+#, no-wrap
 msgid "**Note for macOS users:** As of Jamulus 3.8.1, we have a signed installer. This will store the settings in\n"
-msgstr "**Nota para usuarios de macOS:** Desde Jamulus 3.8.1, tenemos un instalador con firma. Éste guardará la configuración en \n"
+msgstr "**Nota para usuarios de macOS:** Desde Jamulus 3.8.1, tenemos un instalador con firma. Éste guardará la configuración en\n"
 
 #. type: Fenced code block (shell)
 #: ../wiki/en/Software-Manual.md:347
