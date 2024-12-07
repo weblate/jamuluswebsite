@@ -109,7 +109,7 @@ msgstr "Ping, Delay และ Jitter"
 #: ../wiki/en/Software-Manual.md:32
 #, no-wrap
 msgid "**Ping** shows your network latency in milliseconds, the lower the better. Ping time contributes to overall delay (see below). The most probable cause of a high ping is that your distance to the server is too large.\n"
-msgstr ""
+msgstr "**Ping** แสดงค่าดีเลย์ (latency) ของเครือข่ายของคุณเป็นหน่วยมิลลิวินาที ยิ่งตัวเลขนี้น้อยก็ยิ่งดี ค่า ping time จะมีผลต่อค่า delay โดยรวม (ดูรายละเอียดด้านล่าง) สาเหตุที่เป็นไปได้มากที่สุดที่ทำค่า ping สูง คือระยะทางจากคุณไปยังเซิร์ฟเวอร์ไกลเกินไป\n"
 
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:34
