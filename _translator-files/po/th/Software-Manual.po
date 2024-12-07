@@ -486,24 +486,24 @@ msgstr ""
 #: ../wiki/en/Software-Manual.md:192
 #, no-wrap
 msgid "Settings"
-msgstr ""
+msgstr "Settings"
 
 #. type: Title ##
 #: ../wiki/en/Software-Manual.md:194
 #, no-wrap
 msgid "My Profile"
-msgstr ""
+msgstr "My Profile"
 
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:198
 msgid "From the Settings menu, select \"My Profile...\" to set your Alias/Name which is displayed below your fader in the server audio mixer board."
-msgstr ""
+msgstr "จากเมนู Settings เลือก \"My Profile...\" เพื่อตั้งค่า Alias/Name (ชื่อ/ฉายา) ของคุณ ซึ่งจะแสดงอยู่ใต้เฟดเดอร์ของคุณในมิกเซอร์เสียงของเซิร์ฟเวอร์"
 
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:200
 #, no-wrap
 msgid "<figure><img src=\"{% include img/en-screenshots/settings-profile.inc %}\" style=\"border: 5px solid grey;\" loading=\"lazy\" alt=\"Image of a profile window\"></figure>\n"
-msgstr ""
+msgstr "<figure><img src=\"{% include img/th-screenshots/settings-profile.inc %}\" style=\"border: 5px solid grey;\" loading=\"lazy\" alt=\"Image of a profile window\"></figure>\n"
 
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:202
