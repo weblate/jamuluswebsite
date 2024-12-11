@@ -119,7 +119,7 @@ When using JACK or macOS, make sure you connect your MIDI device's output port t
 2. The long form is a sequence of offsets and counts for various controllers:
 
    ```
-   [MIDI channel];[control letter][offset](*[count](;...))
+   [MIDI channel];[control letter][offset](*[count])(;...)
    ```
 
    * `MIDI channel` is required or else the parameter argument is ignored and the feature is not active.  `0` means "any channel", `1`-`16` listen only to MIDI messages on the specified MIDI channel.
