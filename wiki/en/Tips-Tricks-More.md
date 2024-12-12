@@ -84,7 +84,7 @@ Here is the script:
 
 The volume fader, pan control and mute and solo buttons in the Client's mixer window strips can be controlled using a connected MIDI controller. This feature is available from version 3.7.0 on macOS, Linux, and the JACK version of Jamulus for Windows. From Jamulus 3.12.0 onwards, it is also available for the non-JACK (ASIO) Windows version.  To enable this feature, Jamulus must be launched with the `--ctrlmidich` command-line option.
 
-When this option is used on the command line, Jamulus will prepend a channel number to each Client name, which can be used to control the channel using MIDI CC numbers. In Jamulus version 3.12.0 onwards, when connected to a server of at least version 3.5.5, your own fader will always be given channel 0, and so will appear first when unsorted or sorted by channel, whether or not "Own Fader First" is enabled.
+When this option is used on the command line, Jamulus will prepend a channel number to each Client name, which can be used to control the channel using MIDI CC numbers. In Jamulus version 3.12.0 onwards, when connected to a server of at least version 3.5.5, your own fader will always be given channel 0, and so will appear first when sorted by channel or when "Own Fader First" is enabled.
 
 *Tip*: With default settings, when some users leave and others join, their left-right arrangement in the GUI may cease to follow a numerical order, making it more difficult to know who each physical fader/knob on your MIDI controller corresponds to. To keep the fader strips following a numerical order, go to "View" on the top menu bar and switch to "Sort by Channel" (or type `Ctrl+E`).
 
