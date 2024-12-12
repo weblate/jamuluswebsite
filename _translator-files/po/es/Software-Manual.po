@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2024-12-08 20:00+0000\n"
+"PO-Revision-Date: 2024-12-12 21:56+0000\n"
 "Last-Translator: ignotus <ignotus666@users.noreply.hosted.weblate.org>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -461,7 +461,7 @@ msgstr ""
 "* Ordenar Usuarios de Canal por Grupo<br/>\n"
 "Cuando se utiliza la función de agrupar faders, esto ordena por número de grupo en orden ascendente (y dentro de éste, por nombre), con cualquier canal no agrupado a la derecha.\n"
 "* Ordenar Usuarios por Canal<br/>\n"
-"Cuando los controles de canal de Jamulus (fader, mute, solo, etc) se controlan mediante MIDI (véase [Utilizar --ctrlmidich para controladores MIDI](Tips-Tricks-More#utilizar-ctrlmidich-para-controladores midi)), esto ordena por número de canal para ayudar a asegurar un orden estable que se alinee con los controles de hardware MIDI.\n"
+"Cuando los controles de canal de Jamulus (fader, mute, solo, etc) se controlan mediante MIDI (véase [Utilizar --ctrlmidich para controladores MIDI](Tips-Tricks-More#utilizar-ctrlmidich-para-controladores-midi)), esto ordena por número de canal para ayudar a asegurar un orden estable que se alinee con los controles de hardware MIDI.\n"
 "Nótese que en clientes de Jamulus anteriores a la versión 3.12.0, los números de canal son asignados directamente por el servidor. Los clientes desde 3.12.0 en adelante gestionan su propia asignación de números de canal y siempre asignan el canal 0 al usuario local (siempre y cuando la versión del servidor sea al menos 3.5.5).\n"
 
 #. type: Title ###
@@ -495,7 +495,7 @@ msgstr "Ayuda"
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:190
 msgid "Provides access to the [Getting Started](Getting-Started) and [User Manual](Software-Manual) (this page) on the website, along with copyright, licence and acknowledgement details.  There is also a \"What's This?\" option for getting more details on parts of the client display."
-msgstr "Ofrece acceso a las páginas de [Cómo Empezar](Getting-Started) y al [Manual del Usuario(Software-Manual) (esta página) en la página web, junto con detalles sobre el copyright, la licencia y la atribución.  También hay una opción de \"¿Qué es esto?\" para obtener más detalles sobre partes de la interfaz de usuario."
+msgstr "Ofrece acceso a las páginas de [Cómo Empezar](Getting-Started) y al [Manual del Usuario](Software-Manual) (esta página) en la página web, junto con detalles sobre el copyright, la licencia y la atribución.  También hay una opción de \"¿Qué es esto?\" para obtener más detalles sobre partes de la interfaz de usuario."
 
 #. type: Title #
 #: ../wiki/en/Software-Manual.md:192
