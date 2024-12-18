@@ -204,6 +204,26 @@ Close the shell or change out of the upstream directory to one's usual working d
 $ cd ../jamulus
 ```
 
+### Updating the Changelog
+
+Change to the above directory `jamulus-upstream`, checkout `main` and ensure it is up to date:
+
+```
+$ cd jamulus-upstream
+$ git checkout main
+$ git pull
+$ git status
+```
+
+Make sure there are no pending changes shown by `git status`.
+
+Make sure `ChangeLog` contains the right version for the planned release - this is "the release version number will be" number.  If not, update it and commit the change.
+
+- Run `./tools/changelog-helper.sh add-missing-entries` to scan Git history and Github milestone for PRs and to auto-add them to the changelog.
+- Run `./tools/changelog-helper.sh group-entries` to group all entries for the current release
+- Verify manually (`git diff`) & edit as necessary
+- Commit & push
+
 ## Upload binaries to SourceForge
 
 **NOTE**: As of Sept 2023 we have a webhook set to transfer the downloads automatically to SourceForge on GitHub release. Check to see whether that's worked before following the steps below! 
@@ -250,6 +270,7 @@ Current state: <!-- Planning|Translations (beta)|Code freeze (rc)|Released -->
 
 **Checklist**
 - [ ] Assign this issue to the release shepherd who is in charge of managing this checklist.
+- [ ] Make sure `ChangeLog` has the agreed next release version number.
 - [ ] Pin this issue
 - [ ] Ensure that all issues/PR targeted for this release are done by checking the Project board with [the appropriate filter for this release](https://github.com/orgs/jamulussoftware/projects/5/views/5). Remind main developers to review entries in *Waiting on team* state.
 - [ ] Agree to de-tag unfinished Issues/PRs.
@@ -355,9 +376,3 @@ This Discussion thread will be locked in order to keep things organized.
 Feedback, questions or suspected bug reports are appreciated nevertheless -- please start a new [Discussion on Github](https://github.com/jamulussoftware/jamulus/discussions/new) for them.
 
 ~~~
-
-### Updating the Changelog
-- Run `./tools/changelog-helper.sh add-missing-entries` to scan Git history and Github milestone for PRs and to auto-add them to the changelog.
-- Run `./tools/changelog-helper.sh group-entries` to group all entries for the current release
-- Verify manually (`git diff`) & edit as necessary
-- Commit & push
