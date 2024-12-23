@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2024-12-13 16:49+0000\n"
+"PO-Revision-Date: 2024-12-23 15:00+0000\n"
 "Last-Translator: ignotus <ignotus666@users.noreply.hosted.weblate.org>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9-rc\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #. type: Yaml Front Matter Hash Value: lang
 #: ../wiki/en/Tips-Tricks-More.md:1
@@ -355,7 +355,7 @@ msgstr ""
 "     | letra de control | Control Jamulus |\n"
 "     |--------:|---------|\n"
 "     | `f` | Fader |\n"
-"     | `p` | Paneo   |\n"
+"     | `p` | Paneo |\n"
 "     | `s` | Solo  |\n"
 "     | `m` | Mute  |\n"
 
