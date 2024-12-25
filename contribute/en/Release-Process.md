@@ -269,11 +269,14 @@ Approximate release date: <!-- E.g. one week after targeted translation completi
 Current state: <!-- Planning|Translations (beta)|Code freeze (rc)|Released -->
 
 **Checklist**
-- [ ] Assign this issue to the release shepherd who is in charge of managing this checklist.
+- [ ] Agree the set of changes to be included in the release - the issue or PR project should be set to "Tracking" and the milestone should be set to the release.
 - [ ] Make sure `ChangeLog` has the agreed next release version number.
+- [ ] Ensure the [Project Tracking Board](https://github.com/orgs/jamulussoftware/projects/5/views/5) shows the issues and any pull requests for the release as they arise.
+- [ ] As the release nears completion, assign this issue to the release shepherd who is in charge of managing this checklist.
 - [ ] Pin this issue
-- [ ] Ensure that all issues/PR targeted for this release are done by checking the Project board with [the appropriate filter for this release](https://github.com/orgs/jamulussoftware/projects/5/views/5). Remind main developers to review entries in *Waiting on team* state.
+- [ ] Remind main developers to watch the Project board and review entries in *Waiting on team* state.
 - [ ] Agree to de-tag unfinished Issues/PRs.
+- [ ] Ensure the [Project Tracking Board](https://github.com/orgs/jamulussoftware/projects/5/views/5) shows the issues and any pull requests for the release in the correct status and remind the main developers to check the board.
 - [ ] Declare a freeze for code and website by updating this Issue and adding a comment. PRs can still be worked on and may get reviewed, but must not be merged unless agreed explicitly.
 - [ ] Check the `needs documentation` label for any outstanding PRs flagged for this release and remove that label if done.
 - [ ] Check ./Jamulus -h output against the [Include-Client](https://github.com/jamulussoftware/jamuluswebsite/blob/next-release/wiki/en/Include-Client-Commands.md)/[Server-Commands](https://github.com/jamulussoftware/jamuluswebsite/blob/next-release/wiki/en/Include-Server-Commands.md).md pages and [man page (distributions/Jamulus.1)[(https://github.com/jamulussoftware/jamulus/blob/main/distributions/Jamulus.1). Update if necessary.
@@ -300,7 +303,7 @@ Current state: <!-- Planning|Translations (beta)|Code freeze (rc)|Released -->
 - [ ] Finish Website translations
   - [ ] Wait for all PRs to be merged (missing translations will revert to English automatically)
   - [ ] [Check for broken links](https://github.com/jamulussoftware/jamuluswebsite/blob/release/contribute/en/Release-Process.md#website-check-links)
-- [ ] Check the milestone for mergable stuff again
+- [ ] Ensure the [Project Tracking Board](https://github.com/orgs/jamulussoftware/projects/5/views/5) shows the issues and any pull requests for the release in the correct status and remind the main developers to check the board, particularly that everything that is ready for merging has been merged.
 - [ ] [Update the Changelog](https://jamulus.io/contribute/Release-Process#updating-the-changelog)
 - [ ] [Tag a release candidate](https://jamulus.io/contribute/Release-Process#steps-for-a-specific-release) (inform emlynmac for signing on macOS and upload signed binary from his repo to ours).
   - [ ] Announce the release candidate on Github Discussions. Pin the thread. Unpin and lock the beta thread.
@@ -322,9 +325,10 @@ Current state: <!-- Planning|Translations (beta)|Code freeze (rc)|Released -->
     - [ ] On Facebook in the group "Jamulus (official group)". Turn off replies.
 - [ ] Trigger the update notification by updating both Update Check Servers with the new version (@pljones for update02, email corrados for update01)
 - [ ] [Prepare `Jamulus.pro` (`dev` suffix) and ChangeLog (add a header) for the [next release](https://jamulus.io/contribute/Release-Process#make-the-main-branch-ready-for-post-release-development)
-- [ ] Check that all Issues and PRs tagged for this release are in Done/Closed state.
-- [ ] Close the release milestone in both jamulus and jamuluswebsite repos
+- [ ] Make sure there are no open issues or PRs on the [Project Tracking Board](https://github.com/orgs/jamulussoftware/projects/5/views/5) for the milestone
 - [ ] Create a milestone for the next minor release in jamulus and jamuluswebsite repos
+- [ ] Change the [Project Tracking Board](https://github.com/orgs/jamulussoftware/projects/5/views/5) to the next release (i.e. change the filter and save the change)
+- [ ] Close the release milestone in both jamulus and jamuluswebsite repos
 - [ ] Update this template in https://jamulus.io/contribute/Release-Process with any improvements if needed.
 - [ ] Unpin and close this issue
 - [ ] Determine if a release retrospective is needed, create on Discussions if required
