@@ -90,7 +90,7 @@ Server operators register their servers with Directories. These are either genre
 You can filter the list by server name or location. To list only occupied Servers, enter a "#" character.
 If you choose "Show All Musicians" the current occupants will be shown.
 
-If you know the IP address or URL of a private Server, you can connect to it using the Server Name/Address field.
+If you know the hostname or IP address of a private Server, you can connect to it using the "Server Address" field.
 An optional port number can be added after the address using a colon as a separator, e.g, `jamulus.example.com:22124`.
 (Note that IPv6 addresses must be entirely enclosed in square brackets, for example `[::1]:22124`.)
 The field will also show a list of the most recently used server addresses.
@@ -313,7 +313,7 @@ rate is not higher than your available internet upload speed (check this with a 
 ### Custom Directories
 
 If you need to add Directory addresses other than the built-in ones, you can do so here.
-If you know the IP address or host name of a custom Directory, you can connect to it using the Server Name/Address field.
+Enter the hostname or IP address of the custom Directory.
 An optional port number can be added after the address using a colon as a separator, e.g, `jamulus.example.com:22124`.
 (Note that IPv6 is not currently supported for Directories.)
 The button that follows the field allows the current entry to be removed from the list.
