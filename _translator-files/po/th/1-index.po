@@ -67,6 +67,16 @@ msgstr "Jamulus คืออะไร?"
 msgid "Jamulus lets you play, rehearse, or jam with your friends, your band, or anyone you find online. Play together remotely in time with high quality, low-latency sound on a normal broadband connection. [Download it here!](wiki/Getting-Started)\n"
 msgstr "Jamulus ให้คุณเล่นดนตรี ซ้อม หรือแจมกับเพื่อนๆ วงดนตรีของคุณ หรือใครก็ตามที่คุณเจอทางออนไลน์ เล่นด้วยกันได้อย่างพร้อมเพรียงด้วยคุณภาพเสียงสูงและดีเลย์ต่ำ ผ่านการเชื่อมต่ออินเทอร์เน็ตแบบทั่วไป [ดาวน์โหลดได้ที่นี่!](wiki/Getting-Started)\n"
 
+#. type: Attribute 'src' of: <div><div><figure><a><img>
+#: ../wiki/en/misc/1-index.md:32
+msgid "{% include img/en-screenshots/main-screen-medium.inc %}"
+msgstr ""
+
+#. type: Attribute 'alt' of: <div><div><figure><a><img>
+#: ../wiki/en/misc/1-index.md:32
+msgid "A screenshot of the main mixer window showing five people from different countries connected."
+msgstr ""
+
 #. type: Content of: <div><div><figure><figcaption>
 #: ../wiki/en/misc/1-index.md:34
 #, no-wrap

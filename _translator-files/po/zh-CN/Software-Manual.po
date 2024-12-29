@@ -265,7 +265,9 @@ msgstr "服务器运营商向目录注册他们的服务器。这些目录要么
 
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:98
-msgid "If you know the IP address or URL of a private Server, you can connect to it using the Server Name/Address field.  An optional port number can be added after the address using a colon as a separator, e.g, `jamulus.example.com:22124`.  (Note that IPv6 addresses must be entirely enclosed in square brackets, for example `[::1]:22124`.)  The field will also show a list of the most recently used server addresses.  The button that follows the field allows the current entry to be removed from the list."
+#, fuzzy
+#| msgid "If you know the IP address or URL of a private Server, you can connect to it using the Server Name/Address field.  An optional port number can be added after the address using a colon as a separator, e.g, `jamulus.example.com:22124`.  (Note that IPv6 addresses must be entirely enclosed in square brackets, for example `[::1]:22124`.)  The field will also show a list of the most recently used server addresses.  The button that follows the field allows the current entry to be removed from the list."
+msgid "If you know the hostname or IP address of a private Server, you can connect to it using the \"Server Address\" field.  An optional port number can be added after the address using a colon as a separator, e.g, `jamulus.example.com:22124`.  (Note that IPv6 addresses must be entirely enclosed in square brackets, for example `[::1]:22124`.)  The field will also show a list of the most recently used server addresses.  The button that follows the field allows the current entry to be removed from the list."
 msgstr "如果您知道私有服务器的 IP 地址或 URL，可以使用“服务器名称/地址”字段连接到它。可以在地址后添加一个可选的端口号，使用冒号作为分隔符，例如，`jamulus.example.com:22124`。（请注意，IPv6 地址必须完全括在方括号中，例如 `[::1]:22124`。）该字段还将显示最近使用的服务器地址列表。该字段后面的按钮允许从列表中删除当前条目。"
 
 #. type: Title ##
@@ -791,7 +793,9 @@ msgstr "自定义目录"
 
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:320
-msgid "If you need to add Directory addresses other than the built-in ones, you can do so here.  If you know the IP address or host name of a custom Directory, you can connect to it using the Server Name/Address field.  An optional port number can be added after the address using a colon as a separator, e.g, `jamulus.example.com:22124`.  (Note that IPv6 is not currently supported for Directories.)  The button that follows the field allows the current entry to be removed from the list."
+#, fuzzy
+#| msgid "If you need to add Directory addresses other than the built-in ones, you can do so here.  If you know the IP address or host name of a custom Directory, you can connect to it using the Server Name/Address field.  An optional port number can be added after the address using a colon as a separator, e.g, `jamulus.example.com:22124`.  (Note that IPv6 is not currently supported for Directories.)  The button that follows the field allows the current entry to be removed from the list."
+msgid "If you need to add Directory addresses other than the built-in ones, you can do so here.  Enter the hostname or IP address of the custom Directory.  An optional port number can be added after the address using a colon as a separator, e.g, `jamulus.example.com:22124`.  (Note that IPv6 is not currently supported for Directories.)  The button that follows the field allows the current entry to be removed from the list."
 msgstr "如果您需要添加除内置目录地址之外的其他目录地址，可以在此处进行操作。如果您知道自定义目录的 IP 地址或主机名，可以使用“服务器名称/地址”字段连接到它。可以在地址后添加一个可选的端口号，使用冒号作为分隔符，例如，`jamulus.example.com:22124`。（请注意，目前目录不支持 IPv6。）该字段后面的按钮允许从列表中删除当前条目。"
 
 #. type: Title ###

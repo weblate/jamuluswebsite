@@ -262,7 +262,9 @@ msgstr "Serveroperatörer registrerar sina servrar med kataloger. Dessa är anti
 
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:98
-msgid "If you know the IP address or URL of a private Server, you can connect to it using the Server Name/Address field.  An optional port number can be added after the address using a colon as a separator, e.g, `jamulus.example.com:22124`.  (Note that IPv6 addresses must be entirely enclosed in square brackets, for example `[::1]:22124`.)  The field will also show a list of the most recently used server addresses.  The button that follows the field allows the current entry to be removed from the list."
+#, fuzzy
+#| msgid "If you know the IP address or URL of a private Server, you can connect to it using the Server Name/Address field.  An optional port number can be added after the address using a colon as a separator, e.g, `jamulus.example.com:22124`.  (Note that IPv6 addresses must be entirely enclosed in square brackets, for example `[::1]:22124`.)  The field will also show a list of the most recently used server addresses.  The button that follows the field allows the current entry to be removed from the list."
+msgid "If you know the hostname or IP address of a private Server, you can connect to it using the \"Server Address\" field.  An optional port number can be added after the address using a colon as a separator, e.g, `jamulus.example.com:22124`.  (Note that IPv6 addresses must be entirely enclosed in square brackets, for example `[::1]:22124`.)  The field will also show a list of the most recently used server addresses.  The button that follows the field allows the current entry to be removed from the list."
 msgstr "Om du känner till IP-adressen eller URL:en för en privat server kan du ansluta till den med hjälp av fältet Servernamn/adress. Ett valfritt portnummer kan läggas till efter adressen med ett kolon som avgränsare, t.ex. `jamulus.example.com:22124`. (Observera att IPv6-adresser måste vara helt omgivna av hakparenteser, till exempel `[::1]:22124`.) Fältet kommer också att visa en lista över de senast använda serveradresserna. Knappen som följer efter fältet gör att den aktuella posten kan tas bort från listan."
 
 #. type: Title ##
@@ -788,7 +790,9 @@ msgstr "Anpassade kataloger"
 
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:320
-msgid "If you need to add Directory addresses other than the built-in ones, you can do so here.  If you know the IP address or host name of a custom Directory, you can connect to it using the Server Name/Address field.  An optional port number can be added after the address using a colon as a separator, e.g, `jamulus.example.com:22124`.  (Note that IPv6 is not currently supported for Directories.)  The button that follows the field allows the current entry to be removed from the list."
+#, fuzzy
+#| msgid "If you need to add Directory addresses other than the built-in ones, you can do so here.  If you know the IP address or host name of a custom Directory, you can connect to it using the Server Name/Address field.  An optional port number can be added after the address using a colon as a separator, e.g, `jamulus.example.com:22124`.  (Note that IPv6 is not currently supported for Directories.)  The button that follows the field allows the current entry to be removed from the list."
+msgid "If you need to add Directory addresses other than the built-in ones, you can do so here.  Enter the hostname or IP address of the custom Directory.  An optional port number can be added after the address using a colon as a separator, e.g, `jamulus.example.com:22124`.  (Note that IPv6 is not currently supported for Directories.)  The button that follows the field allows the current entry to be removed from the list."
 msgstr "Om du behöver lägga till andra katalogadresser än de inbyggda kan du göra det här. Om du känner till IP-adressen eller värdnamnet för en anpassad katalog kan du ansluta till den med hjälp av fältet Servernamn/adress. Ett valfritt portnummer kan läggas till efter adressen med ett kolon som avgränsare, t.ex. `jamulus.example.com:22124`. (Observera att IPv6 för närvarande inte stöds för kataloger.) Knappen som följer efter fältet gör att den aktuella posten kan tas bort från listan."
 
 #. type: Title ###

@@ -257,7 +257,9 @@ msgstr "ผู้ดูแลเซิร์ฟเวอร์จะลงทะ
 
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:98
-msgid "If you know the IP address or URL of a private Server, you can connect to it using the Server Name/Address field.  An optional port number can be added after the address using a colon as a separator, e.g, `jamulus.example.com:22124`.  (Note that IPv6 addresses must be entirely enclosed in square brackets, for example `[::1]:22124`.)  The field will also show a list of the most recently used server addresses.  The button that follows the field allows the current entry to be removed from the list."
+#, fuzzy
+#| msgid "If you know the IP address or URL of a private Server, you can connect to it using the Server Name/Address field.  An optional port number can be added after the address using a colon as a separator, e.g, `jamulus.example.com:22124`.  (Note that IPv6 addresses must be entirely enclosed in square brackets, for example `[::1]:22124`.)  The field will also show a list of the most recently used server addresses.  The button that follows the field allows the current entry to be removed from the list."
+msgid "If you know the hostname or IP address of a private Server, you can connect to it using the \"Server Address\" field.  An optional port number can be added after the address using a colon as a separator, e.g, `jamulus.example.com:22124`.  (Note that IPv6 addresses must be entirely enclosed in square brackets, for example `[::1]:22124`.)  The field will also show a list of the most recently used server addresses.  The button that follows the field allows the current entry to be removed from the list."
 msgstr "หากคุณทราบ IP address หรือ URL ของเซิร์ฟเวอร์ส่วนตัว คุณสามารถเชื่อมต่อกับเซิร์ฟเวอร์นั้นได้โดยใส่ในช่อง Server Name/Address คุณสามารถเพิ่มหมายเลขพอร์ตต่อท้าย address ได้ โดยใช้เครื่องหมายโคลอนเป็นตัวคั่น เช่น `jamulus.example.com:22124` (โปรดทราบว่า IP address แบบ IPv6 ต้องอยู่ในวงเล็บก้ามปู เช่น `[::1]:22124`) ช่องนี้จะแสดงรายชื่อ address ของเซิร์ฟเวอร์ที่เพิ่งใช้งานล่าสุด ปุ่มที่อยู่ถัดจากช่องนี้ช่วยให้คุณสามารถลบรายการปัจจุบันออกจากรายชื่อได้"
 
 #. type: Title ##
@@ -771,8 +773,10 @@ msgstr ""
 
 #. type: Plain text
 #: ../wiki/en/Software-Manual.md:320
-msgid "If you need to add Directory addresses other than the built-in ones, you can do so here.  If you know the IP address or host name of a custom Directory, you can connect to it using the Server Name/Address field.  An optional port number can be added after the address using a colon as a separator, e.g, `jamulus.example.com:22124`.  (Note that IPv6 is not currently supported for Directories.)  The button that follows the field allows the current entry to be removed from the list."
-msgstr ""
+#, fuzzy
+#| msgid "If you know the IP address or URL of a private Server, you can connect to it using the Server Name/Address field.  An optional port number can be added after the address using a colon as a separator, e.g, `jamulus.example.com:22124`.  (Note that IPv6 addresses must be entirely enclosed in square brackets, for example `[::1]:22124`.)  The field will also show a list of the most recently used server addresses.  The button that follows the field allows the current entry to be removed from the list."
+msgid "If you need to add Directory addresses other than the built-in ones, you can do so here.  Enter the hostname or IP address of the custom Directory.  An optional port number can be added after the address using a colon as a separator, e.g, `jamulus.example.com:22124`.  (Note that IPv6 is not currently supported for Directories.)  The button that follows the field allows the current entry to be removed from the list."
+msgstr "หากคุณทราบ IP address หรือ URL ของเซิร์ฟเวอร์ส่วนตัว คุณสามารถเชื่อมต่อกับเซิร์ฟเวอร์นั้นได้โดยใส่ในช่อง Server Name/Address คุณสามารถเพิ่มหมายเลขพอร์ตต่อท้าย address ได้ โดยใช้เครื่องหมายโคลอนเป็นตัวคั่น เช่น `jamulus.example.com:22124` (โปรดทราบว่า IP address แบบ IPv6 ต้องอยู่ในวงเล็บก้ามปู เช่น `[::1]:22124`) ช่องนี้จะแสดงรายชื่อ address ของเซิร์ฟเวอร์ที่เพิ่งใช้งานล่าสุด ปุ่มที่อยู่ถัดจากช่องนี้ช่วยให้คุณสามารถลบรายการปัจจุบันออกจากรายชื่อได้"
 
 #. type: Title ###
 #: ../wiki/en/Software-Manual.md:321
