@@ -167,9 +167,19 @@ The ART USBMIX4 appears to be a re-branded [Ammoon AGM04](https://www.ammoon.com
 
 ***
 
+**[Behringer Wing](https://www.behringer.com/behringer/wing)** 48-channel digital mixers, includes the Wing, Wing Compact, and Wing Rack
+
+**Windows**: ✅ Works great. Very flexible routing options for USB audio. Rack version has 4 headphone out jacks. Get the USB Audio driver from the [Behringer web site](https://www.behringer.com/behringer/wing)
+
+**macOS**: ❓ Should work.
+
+**Linux**: ❓ Not yet tested.
+
+***
+
 **[Behringer X32](https://www.behringer.com/behringer/product?modelCode=P0ASF)** X-USB digital mixing desk 32-in/32-out
 
-**Windows**: ❓ Should work.
+**Windows**: ✅ Works great. Get the USB Audio driver from the [Behringer web site](https://www.behringer.com/series.html?category=R-BEHRINGER-X32SERIES)
 
 **macOS**: ❓ Should work.
 
@@ -179,7 +189,7 @@ The ART USBMIX4 appears to be a re-branded [Ammoon AGM04](https://www.ammoon.com
 
 **[Behringer XR18](https://www.behringer.com/product.html?modelCode=P0BI8)** (XR serie), USB digital mixing consoles
 
-**Windows**: ❓ Should work.
+**Windows**: ✅ Works great. Grab the USB audio driver from the [Behringer web site](https://www.behringer.com/product.html?modelCode=0605-AAD)
 
 **macOS**: ❓ Should work.
 
