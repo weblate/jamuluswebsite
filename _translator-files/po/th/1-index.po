@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# Thai Pangsakulyanont <dtinth@spacet.me>, 2024.
+# Thai Pangsakulyanont <dtinth@spacet.me>, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2024-10-06 16:15+0000\n"
+"PO-Revision-Date: 2025-01-02 19:13+0000\n"
 "Last-Translator: Thai Pangsakulyanont <dtinth@spacet.me>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: th\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #. type: Content of: outside any tag (error?)
 #: ../wiki/en/misc/1-index.md:1
@@ -47,7 +47,7 @@ msgstr ""
 "ldjCreator: \"Volker Fischer and contributors\"\n"
 "metadescription: \"Jamulus เป็นซอฟต์แวร์ฟรีและโอเพนซอร์สที่ช่วยให้นักดนตรีสามารถเล่นดนตรี ซ้อม หรือแจมร่วมกันได้แบบเรียลไทม์ผ่านอินเตอร์เน็ต\"\n"
 "mAltProgIcon: \"Jamulus icon\"\n"
-"mTSlogan: \"Play music online. With friends. For free.\"\n"
+"mTSlogan: \"เล่นดนตรีออนไลน์ กับเพื่อนๆ ฟรี!\"\n"
 "mTGetStartedNow: \"เริ่มต้นใช้งานได้เลย!\"\n"
 "mTDownloadNow: 'ดาวน์โหลดโปรแกรมเพื่อใช้งานบน'\n"
 "mTPlatformsAnd: 'และ'\n"
@@ -69,13 +69,15 @@ msgstr "Jamulus ให้คุณเล่นดนตรี ซ้อม ห�
 
 #. type: Attribute 'src' of: <div><div><figure><a><img>
 #: ../wiki/en/misc/1-index.md:32
+#, fuzzy
 msgid "{% include img/en-screenshots/main-screen-medium.inc %}"
-msgstr ""
+msgstr "{% include img/th-screenshots/main-screen-medium.inc %}"
 
 #. type: Attribute 'alt' of: <div><div><figure><a><img>
 #: ../wiki/en/misc/1-index.md:32
+#, fuzzy
 msgid "A screenshot of the main mixer window showing five people from different countries connected."
-msgstr ""
+msgstr "ภาพหน้าจอของหน้าต่างมิกเซอร์หลักที่แสดงผู้คนห้าคนจากประเทศต่างๆ ที่เชื่อมต่อกัน"
 
 #. type: Content of: <div><div><figure><figcaption>
 #: ../wiki/en/misc/1-index.md:34
