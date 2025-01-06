@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Julien Taverna <please@seeGitHubOrWeblate.local>, 2022.
 # Olivier Humbert <redacted@invalid.local>, 2022.
-# Olivier Humbert <trebmuh@tuxfamily.org>, 2022, 2023, 2024.
-# Julien Taverna <jujudusud@gmail.com>, 2023.
+# Olivier Humbert <trebmuh@tuxfamily.org>, 2022, 2023, 2024, 2025.
+# Julien Taverna <jujudusud@gmail.com>, 2023, 2025.
 # cosas <f0rhum@free.fr>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2024-05-01 11:07+0000\n"
+"PO-Revision-Date: 2025-01-03 22:02+0000\n"
 "Last-Translator: Olivier Humbert <trebmuh@tuxfamily.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/jamulus/tips-tricks-more/fr/>\n"
 "Language: fr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.5.3-dev\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #. type: Yaml Front Matter Hash Value: lang
 #: ../wiki/en/Tips-Tricks-More.md:1
@@ -235,10 +235,9 @@ msgstr ""
 
 #. type: Title ###
 #: ../wiki/en/Tips-Tricks-More.md:83
-#, fuzzy, no-wrap
-#| msgid "Using ctrlmidich for MIDI controllers"
+#, no-wrap
 msgid "Using `--ctrlmidich` for MIDI controllers"
-msgstr "Utilisation de ctrlmidich pour les contrôleurs MIDI"
+msgstr "Utilisation de `--ctrlmidich`pour les contrôleurs MIDI"
 
 #. type: Plain text
 #: ../wiki/en/Tips-Tricks-More.md:86
@@ -294,7 +293,7 @@ msgstr ""
 #: ../wiki/en/Tips-Tricks-More.md:106
 #, no-wrap
 msgid "     For example\n"
-msgstr ""
+msgstr "     Par exemple\n"
 
 #. type: Plain text
 #: ../wiki/en/Tips-Tricks-More.md:110
@@ -304,6 +303,9 @@ msgid ""
 "     --ctrlmidich \"0\"\n"
 "     ```\n"
 msgstr ""
+"     ```\n"
+"     --ctrlmidich \"0\"\n"
+"     ```\n"
 
 #. type: Plain text
 #: ../wiki/en/Tips-Tricks-More.md:112
@@ -319,6 +321,9 @@ msgid ""
 "     --ctrlmidich \"2;50\"\n"
 "     ```\n"
 msgstr ""
+"     ```\n"
+"     --ctrlmidich \"2;50\"\n"
+"     ```\n"
 
 #. type: Plain text
 #: ../wiki/en/Tips-Tricks-More.md:118
@@ -372,10 +377,9 @@ msgstr ""
 
 #. type: Fenced code block
 #: ../wiki/en/Tips-Tricks-More.md:142
-#, fuzzy, no-wrap
-#| msgid "`--ctrlmidich \"1;f0*8;p16*8;s32*8;m48*8;o64\"`"
+#, no-wrap
 msgid "   --ctrlmidich \"0;f0*8;p16*8\"\n"
-msgstr "`--ctrlmidich \"1;f0*8;p16*8;s32*8;m48*8;o64\"`"
+msgstr "   --ctrlmidich \"0;f0*8;p16*8\"\n"
 
 #. type: Plain text
 #: ../wiki/en/Tips-Tricks-More.md:147
@@ -385,10 +389,9 @@ msgstr ""
 
 #. type: Fenced code block
 #: ../wiki/en/Tips-Tricks-More.md:148
-#, fuzzy, no-wrap
-#| msgid "`--ctrlmidich \"1;f0*8;p16*8;s32*8;m48*8;o64\"`"
+#, no-wrap
 msgid "   --ctrlmidich \"0;f0*8;p16*8;s32*8;m48*8\"\n"
-msgstr "`--ctrlmidich \"1;f0*8;p16*8;s32*8;m48*8;o64\"`"
+msgstr "   --ctrlmidich \"0;f0*8;p16*8;s32*8;m48*8\"\n"
 
 #. type: Bullet: '   * '
 #: ../wiki/en/Tips-Tricks-More.md:153
@@ -413,6 +416,9 @@ msgid ""
 "        --ctrlmidich \"1;f0*8;dnanoKontrol\"\n"
 "        ```\n"
 msgstr ""
+"        ```\n"
+"        --ctrlmidich \"1;f0*8;dnanoKontrol\"\n"
+"        ```\n"
 
 #. type: Plain text
 #: ../wiki/en/Tips-Tricks-More.md:163
@@ -466,10 +472,9 @@ msgstr ""
 
 #. type: Plain text
 #: ../wiki/en/Tips-Tricks-More.md:187
-#, fuzzy, no-wrap
-#| msgid "Please note that for the functions controlled by buttons to work properly, your MIDI controller needs the buttons to be set to \"toggle\" mode. This means that when pressed to 'turn on' a control, it must send a MIDI CC number with a value >=64, and to 'turn off' the control it must send the same CC number with a value <64. You can read your controller's manual to find out how to set this.\n"
+#, no-wrap
 msgid "*Note*: Jamulus does not provide feedback on the on/off state of buttons, meaning that your controller must keep track and toggle LEDs (if any) to 'on' or 'off' itself, that is, buttons on your MIDI controller need to be set to \"toggle\" mode. This means that when pressed to 'turn on' a control, it must send a MIDI CC number with a value >=64, and to 'turn off' the control it must send the same CC number with a value <64. You can read your controller's manual to find out how to set this.\n"
-msgstr "Veuillez noter que pour que les fonctions contrôlées par les boutons fonctionnent correctement, votre contrôleur MIDI a besoin que les boutons soient réglés en mode \"toggle\". Cela signifie que lorsqu'ils sont pressés pour 'activer' un contrôle, ils doivent envoyer un numéro CC MIDI avec une valeur >=64, et pour 'désactiver' le contrôle, ils doivent envoyer le même numéro CC avec une valeur <64. Vous pouvez lire le manuel de votre contrôleur pour savoir comment régler cela.\n"
+msgstr "*Note* : Jamulus ne fournit pas de retour d'information sur l'état on/off des boutons, ce qui signifie que votre contrôleur doit suivre et basculer lui-même les LED (s'il y en a) sur \"on\" ou \"off\", c'est-à-dire que les boutons de votre contrôleur MIDI doivent être réglés sur le mode \"toggle\" (basculer). Cela signifie que lorsqu'ils sont pressés pour 'activer' un contrôle, ils doivent envoyer un numéro CC MIDI avec une valeur >=64, et pour 'désactiver' le contrôle, ils doivent envoyer le même numéro CC avec une valeur <64. Vous pouvez lire le manuel de votre contrôleur pour savoir comment régler cela.\n"
 
 #. type: Title ##
 #: ../wiki/en/Tips-Tricks-More.md:188
