@@ -24,7 +24,7 @@ To edit an individual file, you can use the Github web interface or make a fork 
 
 ### Viewing the website offline
 
-You can view the website (this repo) offline on your own machine using [Jekyll](https://jekyllrb.com/). Please see the [instructions for doing this here](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll). Note that Windows and macOS users will need to make their changes to the website files first, then make a pull request. Click on the "Checks" tab of the pull request, on the right click on "Artifacts" and download the zipped website file. Unzip it (twice), cd into the extracted folder and run `jekyll serve`. If you are on Linux, you can make and view your changes offline before making a PR, but you must install po4a (clone our [assets repo](https://github.com/jamulussoftware/assets) and install the latest .deb from there) along with Jekyll. Then clone the website repo, create your branch and run `_po4a-tools/po4a-create-all-targets.sh` before running `bundle exec jekyll serve` and viewing the site on `http://127.0.0.1:4000/`. Please ask in [Discussions](https://github.com/jamulussoftware/jamulus/discussions) for help with this if necessary.
+You can view the website (this repo) offline on your own machine using [Jekyll](https://jekyllrb.com/). Please see the [instructions for doing this here](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll). Note that Windows and macOS users will need to make their changes to the website files first, then make a pull request. Click on the "Checks" tab of the pull request, on the right click on "Artifacts" and download the zipped website file. Unzip it (twice), cd into the extracted folder and run `jekyll serve`. If you are on Linux, you can make and view your changes offline before making a PR, but you must install po4a (clone our [assets repo](https://github.com/jamulussoftware/assets) and install the latest .deb from there) along with Jekyll. Then clone the website repo, create your branch and run `_po4a_tools/po4a-create-all-targets.sh` before running `bundle exec jekyll serve` and viewing the site on `http://127.0.0.1:4000/`. You can [ask for help in Discussions](https://github.com/jamulussoftware/jamulus/discussions).
 
 ## Formatting and style
 
@@ -56,9 +56,9 @@ Please have a look at our [style and tone guide](https://jamulus.io/contribute/S
 
 We collect changes to the English version of the site on a "next-release" branch first. We then freeze changes prior to a Jamulus software release, and do a translation "sprint" over a couple of weeks when all translation takes place.
 
-1. Changes are first made to EN (= English) *.md files and committed to the “next-release” branch.
+1. Changes are first made to EN (= English) *.md files and committed to the "next-release" branch.
 1. Once we’ve agreed the changes can go live (usually just before a software release), we then create GitHub issues for each language, tagged for that release. You can ask questions about the work there.
-1. Translators for each language then update them on Weblate, or edit the .po files for their language in `_translator-files/po/LANGUAGE/` and open pull requests to merge them into the "next-release” branch.
+1. Translators for each language then update them on Weblate, or edit the .po files for their language in `_translator-files/po/LANGUAGE/` and open pull requests to merge them into the "next-release" branch.
 1. When all translations are merged (issues will then close automatically), we merge that new branch into the `release` branch, which is automatically made live on the production site.
 
 ### Points to note
